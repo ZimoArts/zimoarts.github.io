@@ -62,12 +62,11 @@
                 </div>
             </div>
         </div>
-        <BottomView class="mt-24" />
+        <Footer class="mt-24" />
     </div>
 </template>
 
 <script setup>
-
-import BottomView from '../components/BottomView.vue'
+import Footer from '../components/Footer.vue'
 </script>
 
