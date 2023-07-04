@@ -13,7 +13,8 @@
                             </div>
                             <div class="w-full h-28 relative">
                                 <div class="absolute bottom-0 right-0">
-                                    <div class="text-lg">SCULPTURE</div>
+                                    <router-link to="/sculpture"
+                                        class="text-lg hover:cursor-pointer">SCULPTURE</router-link>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -26,7 +27,8 @@
                             </div>
                             <div class="w-full h-28 relative">
                                 <div class="absolute bottom-0 right-0">
-                                    <div class="text-lg">PHOTOGRAPHIC WORKS</div>
+                                    <router-link to="/photography" class="text-lg hover:cursor-pointer">PHOTOGRAPHIC
+                                        WORKS</router-link>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -39,7 +41,8 @@
                             </div>
                             <div class="w-full h-28 relative">
                                 <div class="absolute bottom-0 right-0">
-                                    <div class="text-lg">DRAMATIC WORK</div>
+                                    <router-link to="/dramatic" class="text-lg hover:cursor-pointer">DRAMATIC
+                                        WORK</router-link>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -52,7 +55,7 @@
                             </div>
                             <div class="w-full h-28 relative">
                                 <div class="absolute bottom-0 right-0">
-                                    <div class="text-lg">OTHER</div>
+                                    <router-link to="/other" class="text-lg hover:cursor-pointer">OTHER</router-link>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
