@@ -32,12 +32,10 @@
 
         </div>
     </div>
-    <FooterView class="mt-9" />
 </template>
 
 <script setup>
 import { ref } from 'vue'
-import FooterView from '../components/FooterView.vue'
 
 const props = defineProps({
     mainImage: String,
