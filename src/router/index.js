@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import SculpturePage from '../views/SculpturePage.vue'
 import PhotographyPage from '../views/PhotographyPage.vue'
@@ -6,7 +6,7 @@ import DramaticPage from '../views/DramaticPage.vue'
 import OtherPage from '../views/OtherPage.vue'
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHashHistory(import.meta.env.BASE_URL),
     routes: [
         {
             path: '/',
