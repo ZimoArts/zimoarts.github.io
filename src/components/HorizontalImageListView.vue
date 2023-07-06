@@ -1,21 +1,31 @@
 <template>
     <div class="w-full">
         <div class="carousel rounded-box">
-            <div class="carousel-item">
-                <img src="/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" />
-            </div>
-            <div class="carousel-item">
-                <img src="/images/stock/photo-1565098772267-60af42b81ef2.jpg" alt="Burger" />
-            </div>
-            <div class="carousel-item">
-                <img src="/images/stock/photo-1572635148818-ef6fd45eb394.jpg" alt="Burger" />
-            </div>
+            <template v-for="image in imageList">
+                <div class="carousel-item bg-white mr-6">
+                    <img :src="image.Url" alt="" />
+                </div>
+            </template>
         </div>
     </div>
 </template>
 
 <script setup>
-export default {
 
+import { ref } from 'vue'
+
+const props = defineProps({
+    images: Array
+})
+let imageList = ref([])
+imageList = props.images
+
+function AddImages(images) {
+    imageList.push(images);
 }
+
+defineExpose({
+    AddImages
+})
+
 </script>

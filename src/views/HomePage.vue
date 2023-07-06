@@ -65,11 +65,11 @@
                 </div>
             </div>
         </div>
-        <Footer class="mt-24" />
+        <FooterView class="mt-24" />
     </div>
 </template>
 
 <script setup>
-import Footer from '../components/Footer.vue'
+import FooterView from '../components/FooterView.vue'
 </script>
 
