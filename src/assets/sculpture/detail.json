@@ -6,8 +6,12 @@
             "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
             "bottomTitle": "ve seen my friends",
             "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
-            "mainImage": "",
-            "imageList": []
+            "mainImageList": [
+                "/sculpture/sculpture_main.png"
+            ],
+            "imageList": [
+                "/sculpture/sculpture_small.png"
+            ]
         },
         {
             "title": "history student and artist, I’ve always been interested",
@@ -15,8 +19,29 @@
             "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
             "bottomTitle": "ve seen my friends",
             "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
-            "mainImage": "",
-            "imageList": []
+            "mainImageList": [
+                "/sculpture/sculpture_main.png"
+            ],
+            "imageList": [
+                "/sculpture/sculpture_small.png",
+                "/sculpture/sculpture_small.png"
+            ]
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/sculpture_main.png",
+                "/sculpture/sculpture_main.png"
+            ],
+            "imageList": [
+                "/sculpture/sculpture_small.png",
+                "/sculpture/sculpture_small.png",
+                "/sculpture/sculpture_small.png"
+            ]
         }
     ]
 }
