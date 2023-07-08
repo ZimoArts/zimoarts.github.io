@@ -2,7 +2,7 @@
     <div class="w-full">
         <HeaderView />
         <template v-for="itemDetail in itemDetailList">
-            <ContentDetailView :itemDetail="itemDetail" class="mt-28" />
+            <ContentDetailView :item-detail="itemDetail" class="mt-28" />
         </template>
         <FooterView class="mt-20" />
     </div>
