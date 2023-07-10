@@ -82,7 +82,7 @@
             </div>
         </template>
         <div class="border-black border-b flex justify-end mt-4">
-            <div class="text-2xl font-bold">ZIMOART</div>
+            <img class="w-28" src="../assets/black_zimoart.png" />
         </div>
     </div>
 </template>
