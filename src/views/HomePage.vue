@@ -1,7 +1,9 @@
 <template>
     <div class="w-full">
         <HeaderView />
-        <HorizontalImageListView class="w-full mt-20" :infos="scrollImageList" />
+        <div class="w-full mt-24">
+            <HorizontalImageListView :infos="scrollImageList" />
+        </div>
         <FooterView class="mt-20" />
     </div>
 </template>
