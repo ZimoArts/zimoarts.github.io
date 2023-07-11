@@ -1,75 +1,21 @@
 <template>
     <div class="w-full">
-        <div class="w-full flex justify-center">
-            <div class="w-2/5">
-
-            </div>
-            <div class="w-3/5 bg-white">
-                <div class="mt-20 mr-9">
-
-                    <div class="w-full flex h-36 relative">
-                        <div class="w-full absolute bottom-0 flex mr-9 border-b border-black">
-                            <div class="h-28 w-56 bg-black">
-                            </div>
-                            <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0">
-                                    <router-link to="/sculpture"
-                                        class="text-lg hover:cursor-pointer">SCULPTURE</router-link>
-                                    <div class="h-2 bg-black"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-full flex h-36 relative">
-                        <div class="w-4/5 absolute bottom-0 right-0 flex border-b border-black">
-                            <div class="h-28 w-56 bg-black">
-                            </div>
-                            <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0">
-                                    <router-link to="/photography" class="text-lg hover:cursor-pointer">PHOTOGRAPHIC
-                                        WORKS</router-link>
-                                    <div class="h-2 bg-black"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-full flex h-36 relative">
-                        <div class="w-full absolute bottom-0 flex border-b border-black">
-                            <div class="h-28 w-56 bg-black">
-                            </div>
-                            <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0">
-                                    <router-link to="/dramatic" class="text-lg hover:cursor-pointer">DRAMATIC
-                                        WORK</router-link>
-                                    <div class="h-2 bg-black"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-full flex h-36 relative">
-                        <div class="w-4/5 absolute bottom-0 right-0 flex border-b border-black">
-                            <div class="h-28 w-56 bg-black">
-                            </div>
-                            <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0">
-                                    <router-link to="/other" class="text-lg hover:cursor-pointer">OTHER</router-link>
-                                    <div class="h-2 bg-black"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <FooterView class="mt-24" />
+        <HeaderView />
+        <HorizontalImageListView class="w-full mt-20" :infos="scrollImageList" />
+        <FooterView class="mt-20" />
     </div>
 </template>
 
 <script setup>
+import HeaderView from '../components/HeaderView.vue'
 import FooterView from '../components/FooterView.vue'
-</script>
+import HorizontalImageListView from '../components/HorizontalImageListView.vue';
+import detailJson from '../assets/home/detail.json'
+import { ref } from 'vue';
 
+
+let scrollImageList = ref([])
+scrollImageList = detailJson.scrollImageList
+
+
+</script>
