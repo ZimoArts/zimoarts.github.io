@@ -2,7 +2,7 @@
     <div class="w-full">
         <div class="w-full carousel rounded-box">
             <template v-for="info in infoList">
-                <div class="carousel-item bg-white mr-6" @click="handleTapImage(info.index)">
+                <div class="carousel-item bg-white mr-6 hover:cursor-pointer" @click="handleTapImage(info.index)">
                     <div class="w-96">
                         <img class="w-full" :src="info.url" alt="" />
                         <div class="w-full mt-9">
@@ -14,7 +14,7 @@
             </template>
         </div>
     </div>
-    <fox-preview-image v-model="showPreview" :initial-index="previewIndex" :src="previewImageSrc" z-index="9000"></fox-preview-image>
+    <fox-preview-image v-model="showPreview" :initial-index="previewIndex" :src="previewImageSrc" />
 </template>
 
 <script setup>
