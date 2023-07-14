@@ -14,12 +14,12 @@
             </template>
         </div>
     </div>
-    <fox-preview-image v-model="showPreview" :initial-index="previewIndex" :src="previewImageSrc" />
 </template>
 
 <script setup>
 
 import { onMounted, reactive, ref } from 'vue'
+import { v3ImgPreviewFn } from 'v3-img-preview'
 
 const props = defineProps({
     infos: Array
@@ -30,10 +30,7 @@ const imagePrevewConfig = reactive({
 })
 
 const infoList = ref([])
-const showPreview = ref(false)
-const previewImageSrc = ref('')
-const previewIndex = ref(0)
-
+const imageUrlList = ref([])
 
 onMounted(() => {
     infoList.value = props.infos
@@ -41,13 +38,13 @@ onMounted(() => {
         infoList.value[index]['index'] = index
         imagePrevewConfig.urlList.push(infoList.value[index]['url'])
     }
-    previewImageSrc.value = imagePrevewConfig.urlList
+    imageUrlList.value = imagePrevewConfig.urlList
 })
 
 
 function handleTapImage(index) {
-    previewIndex.value = index
-    showPreview.value = true
+    let images = imageUrlList.value
+    v3ImgPreviewFn({images, index})
 }
 
 </script>

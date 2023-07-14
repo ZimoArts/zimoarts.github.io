@@ -10,7 +10,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "fox-preview-image": "^2.6.0",
+    "v3-img-preview": "^1.1.16",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"
   },

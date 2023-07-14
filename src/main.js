@@ -2,11 +2,10 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import foxPreviewImage from "fox-preview-image";
-import "fox-preview-image/lib/style.css";
+import VImagesPreview from 'v3-img-preview'
 
 const app = createApp(App)
 
 app.use(router)
-app.use(foxPreviewImage)
+app.use(VImagesPreview)
 app.mount('#app')
