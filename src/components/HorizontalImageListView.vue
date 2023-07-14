@@ -18,15 +18,11 @@
 
 <script setup>
 
-import { onMounted, reactive, ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import { v3ImgPreviewFn } from 'v3-img-preview'
 
 const props = defineProps({
     infos: Array
-})
-
-const imagePrevewConfig = reactive({
-    "urlList": []
 })
 
 const infoList = ref([])
@@ -36,9 +32,8 @@ onMounted(() => {
     infoList.value = props.infos
     for (let index = 0; index < infoList.value.length; index++) {
         infoList.value[index]['index'] = index
-        imagePrevewConfig.urlList.push(infoList.value[index]['url'])
+        imageUrlList.value.push(infoList.value[index]['url'])
     }
-    imageUrlList.value = imagePrevewConfig.urlList
 })
 
 
