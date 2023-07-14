@@ -6,7 +6,7 @@
             <div class="flex justify-start mt-28">
                 <div class="w-3/5">
                     <template v-for="mainImage in item.mainImageList">
-                        <img class="w-full mb-4" :src="mainImage" alt="">
+                        <img @click="handleTapImage(mainImage)" class="w-full mb-4 hover:cursor-pointer" :src="mainImage" alt="">
                     </template>
                 </div>
                 <div class="w-2/5 ml-6">
@@ -15,7 +15,7 @@
                         <div class="absolute bottom-4 right-0">
                             <div class="flex justify-end mt-9">
                                 <template v-for="image in item.imageList">
-                                    <img class="w-3/4 bg-gray-50" :src="image" />
+                                    <img @click="handleTapImage(image)" class="w-3/4 bg-gray-50 hover:cursor-pointer" :src="image" />
                                 </template>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
             <div class="flex justify-start mt-28">
                 <div class="w-3/5">
                     <template v-for="mainImage in item.mainImageList">
-                        <img class="w-full mb-4" :src="mainImage" alt="">
+                        <img @click="handleTapImage(mainImage)" class="w-full mb-4 hover:cursor-pointer" :src="mainImage" alt="">
                     </template>
                 </div>
                 <div class="w-2/5 ml-6">
@@ -42,7 +42,7 @@
                         <div class="absolute bottom-4 right-0">
                             <div class="flex justify-end mt-9">
                                 <template v-for="image in item.imageList">
-                                    <img class="w-64 ml-3" :src="image" />
+                                    <img @click="handleTapImage(image)" class="w-64 ml-3 hover:cursor-pointer" :src="image" />
                                 </template>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
             <div class="flex justify-start mt-28">
                 <div class="w-2/5">
                     <template v-for="mainImage in item.mainImageList">
-                        <img class="w-full mb-4" :src="mainImage" alt="">
+                        <img @click="handleTapImage(mainImage)" class="w-full mb-4 hover:cursor-pointer" :src="mainImage" alt="">
                     </template>
                 </div>
                 <div class="w-3/5 ml-6">
@@ -69,7 +69,7 @@
                         <div class="absolute bottom-4 right-0">
                             <div class="flex justify-end">
                                 <template v-for="image in item.imageList">
-                                    <img class="w-64 ml-3" :src="image" />
+                                    <img @click="handleTapImage(image)" class="w-64 ml-3 hover:cursor-pointer" :src="image" />
                                 </template>
                             </div>
                         </div>
@@ -89,6 +89,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { v3ImgPreviewFn } from 'v3-img-preview'
 
 const props = defineProps({
     itemDetail: Object
@@ -98,6 +99,11 @@ let item = ref({})
 let imageListCount = ref(0)
 item = props.itemDetail
 imageListCount = item.imageList.length
+
+function handleTapImage(url) {
+    v3ImgPreviewFn(url)
+}
+
 
 </script>
 

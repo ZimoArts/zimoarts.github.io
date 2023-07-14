@@ -9,3 +9,9 @@
     justify-content: center;
     display: flex;
 }
+
+@layer base {
+    svg {
+        display: inline;
+    }
+}
