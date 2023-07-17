@@ -12,7 +12,8 @@
                             <div class="h-28 w-56 bg-black">
                             </div>
                             <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0 hover:cursor-pointer" @click="toPage('/sculpture')">
+                                <div class="absolute bottom-0 right-0 w-sculpture transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
+                                    @click="toPage('/sculpture')">
                                     <div class="text-lg text-right">SCULPTURE</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
@@ -25,7 +26,8 @@
                             <div class="h-28 w-56 bg-black">
                             </div>
                             <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0 hover:cursor-pointer" @click="toPage('/photography')">
+                                <div class="absolute bottom-0 right-0 w-photograpy transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
+                                    @click="toPage('/photography')">
                                     <div class="text-lg text-right">PHOTOGRAPHIC WORKS</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
@@ -38,7 +40,8 @@
                             <div class="h-28 w-56 bg-black">
                             </div>
                             <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0 hover:cursor-pointer" @click="toPage('/dramatic')">
+                                <div class="absolute bottom-0 right-0 w-dramatic transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
+                                    @click="toPage('/dramatic')">
                                     <div class="text-lg text-right">DRAMATIC WORK</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
@@ -51,7 +54,8 @@
                             <div class="h-28 w-56 bg-black">
                             </div>
                             <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0 hover:cursor-pointer" @click="toPage('/other')">
+                                <div class="absolute bottom-0 right-0 w-other transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
+                                    @click="toPage('/other')">
                                     <div class="text-lg text-right">OTHERS</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>

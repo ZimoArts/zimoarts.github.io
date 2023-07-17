@@ -5,7 +5,14 @@ module.exports = {
         "./src/**/*.{vue,js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            width:{
+                'sculpture': '102px',
+                'photograpy': '205px',
+                'dramatic': '146px',
+                'other': '70px',
+            }
+        },
     },
     plugins: [require("daisyui")],
     daisyui: {
