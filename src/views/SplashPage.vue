@@ -12,9 +12,8 @@
                             <div class="h-28 w-56 bg-black">
                             </div>
                             <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0">
-                                    <router-link to="/sculpture"
-                                        class="text-lg hover:cursor-pointer">SCULPTURE</router-link>
+                                <div class="absolute bottom-0 right-0 hover:cursor-pointer" @click="toPage('/sculpture')">
+                                    <div class="text-lg text-right">SCULPTURE</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -26,9 +25,8 @@
                             <div class="h-28 w-56 bg-black">
                             </div>
                             <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0">
-                                    <router-link to="/photography" class="text-lg hover:cursor-pointer">PHOTOGRAPHIC
-                                        WORKS</router-link>
+                                <div class="absolute bottom-0 right-0 hover:cursor-pointer" @click="toPage('/photography')">
+                                    <div class="text-lg text-right">PHOTOGRAPHIC WORKS</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -40,9 +38,8 @@
                             <div class="h-28 w-56 bg-black">
                             </div>
                             <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0">
-                                    <router-link to="/dramatic" class="text-lg hover:cursor-pointer">DRAMATIC
-                                        WORK</router-link>
+                                <div class="absolute bottom-0 right-0 hover:cursor-pointer" @click="toPage('/dramatic')">
+                                    <div class="text-lg text-right">DRAMATIC WORK</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -54,8 +51,8 @@
                             <div class="h-28 w-56 bg-black">
                             </div>
                             <div class="w-full h-28 relative">
-                                <div class="absolute bottom-0 right-0">
-                                    <router-link to="/other" class="text-lg hover:cursor-pointer">OTHER</router-link>
+                                <div class="absolute bottom-0 right-0 hover:cursor-pointer" @click="toPage('/other')">
+                                    <div class="text-lg text-right">OTHERS</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -71,5 +68,14 @@
 
 <script setup>
 import FooterView from '../components/FooterView.vue'
+import { useRouter } from 'vue-router';
+
+const router = useRouter()
+
+
+function toPage(routerStr) {
+    router.push(routerStr)
+}
+
 </script>
 
