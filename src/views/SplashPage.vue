@@ -1,5 +1,6 @@
 <template>
-    <div class="w-full">
+    <AnimarionSplashView v-on:image-click="AnimationSplashViewImageOnClick" />
+    <div class="w-full hidden">
         <div class="w-full flex justify-center">
             <div class="w-2/5">
 
@@ -72,10 +73,14 @@
 
 <script setup>
 import FooterView from '../components/FooterView.vue'
+import AnimarionSplashView from '../components/AnimationSplashView.vue'
 import { useRouter } from 'vue-router';
 
 const router = useRouter()
 
+function AnimationSplashViewImageOnClick() {
+    console.log("the image is on click")
+}
 
 function toPage(routerStr) {
     router.push(routerStr)
