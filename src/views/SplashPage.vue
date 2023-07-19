@@ -1,5 +1,6 @@
 <template>
-    <div class="w-full">
+    <AnimarionSplashView :class="fadeoutClass" v-on:image-click="AnimationSplashViewImageOnClick" />
+    <div class="w-full" v-show="showSplashView">
         <div class="w-full flex justify-center">
             <div class="w-2/5">
 
@@ -72,10 +73,19 @@
 
 <script setup>
 import FooterView from '../components/FooterView.vue'
+import AnimarionSplashView from '../components/AnimationSplashView.vue'
 import { useRouter } from 'vue-router';
+import { ref } from 'vue';
 
 const router = useRouter()
 
+const showSplashView = ref(false)
+const fadeoutClass = ref("")
+
+function AnimationSplashViewImageOnClick() {
+    fadeoutClass.value = "fadeout"
+    showSplashView.value = true
+}
 
 function toPage(routerStr) {
     router.push(routerStr)
@@ -83,3 +93,27 @@ function toPage(routerStr) {
 
 </script>
 
+<style>
+.fadeout {
+    -webkit-animation: fadeout 1s linear forwards;
+    animation: fadeout 1s linear forwards;
+}
+
+@keyframes fadeout {
+
+    50% {
+        opacity: 0.5;
+    }
+
+    90% {
+        opacity: 0;
+        transform: scale(4, 4);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: scale(1, 1);
+        visibility: hidden;
+    }
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full">
+    <div class="w-full p-9">
         <HeaderView />
         <div class="w-full mt-24">
             <HorizontalImageListView :infos="scrollImageList" />

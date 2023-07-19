@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full">
+    <div class="w-full p-9">
         <HeaderView />
         <template v-for="itemDetail in itemDetailList">
             <ContentDetailView :item-detail="itemDetail" class="mt-28" />
