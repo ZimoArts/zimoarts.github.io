@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full pl-9 pr-9 pt-9">
+    <div class="w-full pt-9">
         <template v-if="imageListCount == 1">
             <div class="w-64 text-lg font-bold">{{ item.title }}</div>
             <div class="w-56">{{ item.subTitle }}</div>
