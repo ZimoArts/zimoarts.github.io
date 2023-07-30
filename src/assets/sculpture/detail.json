@@ -9,6 +9,7 @@
             "mainImageList": [
                 "/sculpture/D-002.png"
             ],
+            "titleImage": "",
             "imageList": [
                 "/sculpture/B-002.png", "/sculpture/D-001.png", "/sculpture/B-001k.png"
             ]
@@ -20,8 +21,9 @@
             "bottomTitle": "ve seen my friends",
             "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
             "mainImageList": [
-                "/sculpture/sculpture_main.png"
+                "/sculpture/D-001.png"
             ],
+            "titleImage": "/sculpture/D-001.png",
             "imageList": [
                 "/sculpture/sculpture_small.png",
                 "/sculpture/sculpture_small.png"
@@ -37,6 +39,7 @@
                 "/sculpture/sculpture_main.png",
                 "/sculpture/sculpture_main.png"
             ],
+            "titleImage": "",
             "imageList": [
                 "/sculpture/sculpture_small.png",
                 "/sculpture/sculpture_small.png",
