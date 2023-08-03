@@ -1,86 +1,41 @@
 <template>
     <div class="w-full pt-9">
-        <template v-if="imageListCount == 1">
-            <div class="w-64 text-lg font-bold">{{ item.title }}</div>
-            <div class="w-56">{{ item.subTitle }}</div>
-            <div class="flex justify-start mt-28">
-                <div class="w-3/5">
-                    <template v-for="mainImage in item.mainImageList">
-                        <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer" :src="mainImage" alt="">
-                    </template>
-                </div>
-                <div class="w-2/5 ml-6">
-                    <div class="relative h-full">
-                        <div class="">{{ item.description }}</div>
-                        <div class="absolute bottom-4 right-0">
-                            <div class="flex justify-end mt-9">
-                                <template v-for="image in item.imageList">
-                                    <img @click="handleTapImage(image)" class="w-3/4 bg-gray-50 object-contain hover:cursor-pointer" :src="image" />
-                                </template>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-9">
-                <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-                <div class="w-64 text-sm">{{ item.bottomSubTitle }}</div>
-            </div>
-        </template>
-        <template v-if="imageListCount == 2">
-            <div class="w-64 text-lg font-bold">{{ item.title }}</div>
-            <div class="w-56">{{ item.subTitle }}</div>
-            <div class="flex justify-start mt-28">
-                <div class="w-3/5">
-                    <template v-for="mainImage in item.mainImageList">
-                        <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer" :src="mainImage" alt="">
-                    </template>
-                </div>
-                <div class="w-2/5 ml-6">
-                    <div class="relative h-full">
-                        <div class="">{{ item.description }}</div>
-                        <div class="absolute bottom-4 right-0">
-                            <div class="flex justify-end mt-9">
-                                <template v-for="image in item.imageList">
-                                    <img @click="handleTapImage(image)" class="w-64 ml-3 object-contain hover:cursor-pointer" :src="image" />
-                                </template>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-9">
-                <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-                <div class="w-64 text-sm">{{ item.bottomSubTitle }}</div>
-            </div>
-        </template>
-        <template v-if="imageListCount >= 3">
-            <div class="w-64 text-lg font-bold">{{ item.title }}</div>
-            <div class="w-56">{{ item.subTitle }}</div>
-            <div class="flex justify-start mt-28">
-                <div class="w-2/5">
-                    <template v-for="mainImage in item.mainImageList">
-                        <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer" :src="mainImage" alt="">
-                    </template>
-                </div>
-                <div class="w-3/5 ml-6">
-                    <div class="relative h-full">
-                        <div class="">{{ item.description }}</div>
-                        <div class="absolute bottom-4 right-0">
-                            <div class="flex justify-end">
-                                <template v-for="image in item.imageList">
-                                    <img @click="handleTapImage(image)" class="w-64 ml-3 object-contain hover:cursor-pointer" :src="image" />
-                                </template>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-9">
-                <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-                <div class="w-64 text-sm">{{ item.bottomSubTitle }}</div>
-            </div>
-        </template>
+        <div v-if="contentType == 1">
+            <ContentTypeOne :item-detail="item" />
+        </div>
+        <div v-if="contentType == 2">
+            <ContentTypeTwo :item-detail="item" />
+        </div>
+        <div v-if="contentType == 3">
+            <ContentTypeThree :item-detail="item" />
+        </div>
+        <div v-if="contentType == 4">
+            <ContentTypeFour :item-detail="item" />
+        </div>
+        <div v-if="contentType == 5">
+            <ContentTypeFive :item-detail="item" />
+        </div>
+        <div v-if="contentType == 6">
+            <ContentTypeSix :item-detail="item" />
+        </div>
+        <div v-if="contentType == 7">
+            <ContentTypeSeven :item-detail="item" />
+        </div>
+        <div v-if="contentType == 8">
+            <ContentTypeEight :item-detail="item" />
+        </div>
+        <div v-if="contentType == 9">
+            <ContentTypeNine :item-detail="item" />
+        </div>
+        <div v-if="contentType == 10">
+            <ContentTypeTen :item-detail="item" />
+        </div>
+        <div v-if="contentType == 11">
+            <ContentTypeEleven :item-detail="item" />
+        </div>
+        <div v-if="contentType == 12">
+            <ContentTypeTwelve :item-detail="item" />
+        </div>
         <div class="border-black border-b flex justify-end mt-4">
             <img class="w-28" src="../assets/black_zimoart.png" />
         </div>
@@ -88,22 +43,29 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { v3ImgPreviewFn } from 'v3-img-preview'
+import { ref } from 'vue';
+import ContentTypeOne from '../components/content_detail/ContentTypeOne.vue'
+import ContentTypeTwo from '../components/content_detail/ContentTypeTwo.vue'
+import ContentTypeThree from '../components/content_detail/ContentTypeThree.vue'
+import ContentTypeFour from '../components/content_detail/ContentTypeFour.vue'
+import ContentTypeFive from '../components/content_detail/ContentTypeFive.vue'
+import ContentTypeSix from '../components/content_detail/ContentTypeSix.vue'
+import ContentTypeSeven from '../components/content_detail/ContentTypeSeven.vue'
+import ContentTypeEight from '../components/content_detail/ContentTypeEight.vue'
+import ContentTypeNine from '../components/content_detail/ContentTypeNine.vue'
+import ContentTypeTen from '../components/content_detail/ContentTypeTen.vue'
+import ContentTypeEleven from '../components/content_detail/ContentTypeEleven.vue'
+import ContentTypeTwelve from '../components/content_detail/ContentTypeTwelve.vue'
 
 const props = defineProps({
     itemDetail: Object
 })
 
-let item = ref({})
-let imageListCount = ref(0)
-item = props.itemDetail
-imageListCount = item.imageList.length
+const item = ref({})
+item.value = props.itemDetail
 
-function handleTapImage(url) {
-    v3ImgPreviewFn(url)
-}
-
+const contentType = ref(0)
+contentType.value = item.value.type
 
 </script>
 
