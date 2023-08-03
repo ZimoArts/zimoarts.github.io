@@ -46,3 +46,7 @@ type 10
 type 11
 
 ![type_11](./readme/content-type-11.jpg)
+
+type 12
+
+![type_12](./readme/content-type-12.jpg)
