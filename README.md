@@ -1,35 +1,48 @@
 # zimoarts
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+## Content Type Style 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+type 1
 
-## Customize configuration
+![type_1](./readme/content-type-1.jpg)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+type 2
 
-## Project Setup
+![type_2](./readme/content-type-2.jpg)
 
-```sh
-npm install
-```
+type 3
 
-### Compile and Hot-Reload for Development
+![type_3](./readme/content-type-3.jpg)
 
-```sh
-npm run dev
-```
+type 4
 
-### Compile and Minify for Production
+![type_4](./readme/content-type-4.jpg)
 
-```sh
-npm run build
-```
+type 5
 
-### Lint with [ESLint](https://eslint.org/)
+![type_5](./readme/content-type-5.jpg)
 
-```sh
-npm run lint
-```
+type 6
+
+![type_6](./readme/content-type-6.jpg)
+
+type 7
+
+![type_7](./readme/content-type-7.jpg)
+
+type 8
+
+![type_8](./readme/content-type-8.jpg)
+
+type 9
+
+![type_9](./readme/content-type-9.jpg)
+
+type 10
+
+![type_10](./readme/content-type-10.jpg)
+
+type 11
+
+![type_11](./readme/content-type-11.jpg)

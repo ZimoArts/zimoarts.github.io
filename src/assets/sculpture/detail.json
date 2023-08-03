@@ -7,12 +7,14 @@
             "bottomTitle": "ve seen my friends",
             "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
             "mainImageList": [
-                "/sculpture/D-002.png"
+                "/sculpture/A001-main-OK.png"
             ],
             "titleImage": "",
             "imageList": [
-                "/sculpture/B-002.png", "/sculpture/D-001.png", "/sculpture/B-001k.png"
-            ]
+                "/sculpture/A002-OK.png",
+                "/sculpture/A003-OK.png"
+            ],
+            "type": "2"
         },
         {
             "title": "history student and artist, I’ve always been interested",
@@ -21,13 +23,13 @@
             "bottomTitle": "ve seen my friends",
             "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
             "mainImageList": [
-                "/sculpture/D-001.png"
+                "/sculpture/B001-main-OK.png"
             ],
-            "titleImage": "/sculpture/D-001.png",
+            "titleImage": "",
             "imageList": [
-                "/sculpture/sculpture_small.png",
-                "/sculpture/sculpture_small.png"
-            ]
+                "/sculpture/B002-OK.png"
+            ],
+            "type": "1"
         },
         {
             "title": "history student and artist, I’ve always been interested",
@@ -36,15 +38,225 @@
             "bottomTitle": "ve seen my friends",
             "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
             "mainImageList": [
-                "/sculpture/sculpture_main.png",
-                "/sculpture/sculpture_main.png"
+                "/sculpture/C001-main-1-OK.png",
+                "/sculpture/C002-main-2-OK.png"
             ],
             "titleImage": "",
             "imageList": [
-                "/sculpture/sculpture_small.png",
-                "/sculpture/sculpture_small.png",
-                "/sculpture/sculpture_small.png"
-            ]
+                "/sculpture/C003-OK.png",
+                "/sculpture/C004-OK.png",
+                "/sculpture/C005-OK.png"
+            ],
+            "type": "3"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/D001-main-OK.png"
+            ],
+            "titleImage": "/sculpture/D002-OK.png",
+            "imageList": [
+                "/sculpture/D003-OK.png",
+                "/sculpture/D004-OK.png"
+            ],
+            "type": "4"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/E001-main-OK.png"
+            ],
+            "titleImage": "",
+            "imageList": [
+                "/sculpture/E002-OK.png",
+                "/sculpture/E003-OK.png"
+            ],
+            "type": "4"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/F001-main-OK.png"
+            ],
+            "titleImage": "/sculpture/F002-OK.png",
+            "imageList": [
+                "/sculpture/F003-OK.png",
+                "/sculpture/F004-OK.png"
+            ],
+            "type": "4"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/G001-main-OK.png"
+            ],
+            "titleImage": "/sculpture/G002-OK.png",
+            "imageList": [
+                "/sculpture/G003-OK.png",
+                "/sculpture/G004-OK.png"
+            ],
+            "type": "5"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/H001-main-OK.png"
+            ],
+            "titleImage": "/sculpture/H004-OK.png",
+            "imageList": [
+                "/sculpture/H002-OK.png"
+            ],
+            "type": "6"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/I001-main-OK.png"
+            ],
+            "topImage": "/sculpture/I002-OK.png",
+            "midImage": "/sculpture/I003-OK.png",
+            "bottomImage": "/sculpture/I004-OK.png",
+            "type": "7"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/J001-main-OK.png"
+            ],
+            "topImage": "/sculpture/J002-OK.png",
+            "bottomImage": "/sculpture/J003-OK.png",
+            "type": "8"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/K001-main-OK.png"
+            ],
+            "topImage": "/sculpture/K002-OK.png",
+            "bottomImage": "/sculpture/K003-OK.png",
+            "type": "8"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/L001-main-OK.png"
+            ],
+            "topImage": "/sculpture/L002-OK.png",
+            "bottomImage": "/sculpture/L003-OK.png",
+            "type": "8"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/M001-main-OK.png"
+            ],
+            "bottomLeftImage": "/sculpture/M003-OK.png",
+            "bottomRightImage": "/sculpture/M002-OK.png",
+            "type": "9"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/N001-main-OK.png"
+            ],
+            "bottomRightImage": "/sculpture/N002-OK.png",
+            "type": "10"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/O001-main-OK.png"
+            ],
+            "topRightImage": "/sculpture/O003-OK.png",
+            "bottomRightImage": "/sculpture/O002-OK.png",
+            "type": "11"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/P001-main-OK.png"
+            ],
+            "topRightImage": "/sculpture/P003-OK.png",
+            "bottomRightImage": "/sculpture/P002-OK.png",
+            "type": "11"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/Q001-main-OK.png"
+            ],
+            "topRightImage": "/sculpture/Q004-OK.png",
+            "bottomRightImage": "/sculpture/Q002-OK.png",
+            "type": "11"
+        },
+        {
+            "title": "history student and artist, I’ve always been interested",
+            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "mainImageList": [
+                "/sculpture/R001-main-OK.png"
+            ],
+            "topImage": "/sculpture/R002-OK.png",
+            "bottomImage": "/sculpture/R003-OK.png",
+            "type": "12"
         }
     ]
 }
