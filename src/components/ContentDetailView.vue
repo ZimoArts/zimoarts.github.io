@@ -36,8 +36,8 @@
         <div v-if="contentType == 12">
             <ContentTypeTwelve :item-detail="item" />
         </div>
-        <div class="border-black border-b flex justify-end mt-4">
-            <img class="w-28" src="../assets/black_zimoart.png" />
+        <div class="border-black border-b flex justify-end mt-28">
+            <!-- <img class="w-28" src="../assets/black_zimoart.png" /> -->
         </div>
     </div>
 </template>
