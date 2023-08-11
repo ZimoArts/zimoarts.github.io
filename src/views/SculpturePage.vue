@@ -1,8 +1,8 @@
 <template>
-    <div class="w-full p-9">
-        <HeaderView />
+    <div class="w-full pl-9 pr-9">
+        <HeaderView class="mb-28" />
         <template v-for="itemDetail in itemDetailList">
-            <ContentDetailView :item-detail="itemDetail" class="mt-28" />
+            <ContentDetailView :item-detail="itemDetail" class="mb-28" />
         </template>
         <FooterView class="mt-20" />
     </div>

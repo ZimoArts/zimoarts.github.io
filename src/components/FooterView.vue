@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-24 flex justify-center mb-9 relative">
+    <div class="w-full h-28 flex justify-center mb-9 relative">
         <div class="absolute bottom-0 left-0 text-xs">
             2022 GROTON SCHOOL.ALL RIGHTS RESERVED.
         </div>

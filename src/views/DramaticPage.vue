@@ -1,10 +1,12 @@
 <template>
-    <div class="w-full p-9">
-        <HeaderView />
-        <template v-for="itemDetail in itemDetailList">
-            <ContentDetailView :item-detail="itemDetail" class="mt-28" />
-        </template>
-        <FooterView class="mt-20" />
+    <div class="w-full">
+        <HeaderView data-theme="light" />
+        <div class="w-full" data-theme="black">
+            <template v-for="itemDetail in itemDetailList">
+                <ContentDetailView :item-detail="itemDetail" class="mb-28 pl-9 pr-9" />
+            </template>
+        </div>
+        <FooterView class="mt-20" data-theme="light" />
     </div>
 </template>
 
