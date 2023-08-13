@@ -8,9 +8,9 @@ module.exports = {
         extend: {
             width:{
                 'sculpture': '102px',
-                'photograpy': '205px',
-                'dramatic': '146px',
-                'other': '70px',
+                'photograpy': '140px',
+                'dramatic': '80px',
+                'other': '220px',
             }
         },
     },

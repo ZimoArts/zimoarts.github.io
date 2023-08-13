@@ -10,9 +10,17 @@
 
                     <div class="w-full flex h-36 relative">
                         <div class="w-full absolute bottom-0 flex mr-9 border-b border-black">
-                            <div class="h-28 w-56 bg-black">
+                            <div class="h-36 w-56 pt-1">
+                                <Carousel class="w-full" :autoplay="true" :initIndex="0" :indicator="false"
+                                    directionMode="hover">
+                                    <CarouselItem v-for="(image, index) in detailJson.navs.sculpture.scrollImageList"
+                                        :key="index" :idx="index">
+                                        <img :src="image" class="w-full hover:cursor-pointer" alt=""
+                                            @click="handleTapImage(image)" />
+                                    </CarouselItem>
+                                </Carousel>
                             </div>
-                            <div class="w-full h-28 relative">
+                            <div class="w-full h-36 relative">
                                 <div class="absolute bottom-0 right-0 w-sculpture transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                     @click="toPage('/sculpture')">
                                     <div class="text-lg text-right">SCULPTURE</div>
@@ -22,42 +30,66 @@
                         </div>
                     </div>
 
-                    <div class="w-full flex h-36 relative">
+                    <div class="w-full flex h-36 relative mt-4">
                         <div class="w-4/5 absolute bottom-0 right-0 flex border-b border-black">
-                            <div class="h-28 w-56 bg-black">
+                            <div class="h-36 w-56 pt-2">
+                                <Carousel class="w-full" :autoplay="true" :initIndex="0" :indicator="false"
+                                    directionMode="hover">
+                                    <CarouselItem v-for="(image, index) in detailJson.navs.sculpture.scrollImageList"
+                                        :key="index" :idx="index">
+                                            <img :src="image" class="w-full hover:cursor-pointer" alt=""
+                                                @click="handleTapImage(image)" />
+                                    </CarouselItem>
+                                </Carousel>
                             </div>
-                            <div class="w-full h-28 relative">
+                            <div class="w-full h-36 relative">
                                 <div class="absolute bottom-0 right-0 w-photograpy transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                     @click="toPage('/photography')">
-                                    <div class="text-lg text-right">PHOTOGRAPHIC WORKS</div>
+                                    <div class="text-lg text-right">PHOTOGRAPHIC</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="w-full flex h-36 relative">
+                    <div class="w-full flex h-36 relative mt-4">
                         <div class="w-full absolute bottom-0 flex border-b border-black">
-                            <div class="h-28 w-56 bg-black">
+                            <div class="h-36 w-56 pt-1">
+                                <Carousel class="w-full" :autoplay="true" :initIndex="0" :indicator="false"
+                                    directionMode="hover">
+                                    <CarouselItem v-for="(image, index) in detailJson.navs.sculpture.scrollImageList"
+                                        :key="index" :idx="index">
+                                            <img :src="image" class="w-full hover:cursor-pointer" alt=""
+                                                @click="handleTapImage(image)" />
+                                    </CarouselItem>
+                                </Carousel>
                             </div>
-                            <div class="w-full h-28 relative">
+                            <div class="w-full h-36 relative">
                                 <div class="absolute bottom-0 right-0 w-dramatic transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                     @click="toPage('/dramatic')">
-                                    <div class="text-lg text-right">DRAMATIC WORK</div>
+                                    <div class="text-lg text-right">THEATER</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="w-full flex h-36 relative">
+                    <div class="w-full flex h-36 relative mt-4">
                         <div class="w-4/5 absolute bottom-0 right-0 flex border-b border-black">
-                            <div class="h-28 w-56 bg-black">
+                            <div class="h-36 w-56 pt-2">
+                                <Carousel class="w-full" :autoplay="true" :initIndex="0" :indicator="false"
+                                    directionMode="hover">
+                                    <CarouselItem v-for="(image, index) in detailJson.navs.sculpture.scrollImageList"
+                                        :key="index" :idx="index">
+                                            <img :src="image" class="w-full hover:cursor-pointer" alt=""
+                                                @click="handleTapImage(image)" />
+                                    </CarouselItem>
+                                </Carousel>
                             </div>
-                            <div class="w-full h-28 relative">
+                            <div class="w-full h-36 relative">
                                 <div class="absolute bottom-0 right-0 w-other transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                     @click="toPage('/other')">
-                                    <div class="text-lg text-right">OTHERS</div>
+                                    <div class="text-lg text-right">DIGITAL DESIGN (& MORE)</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -74,7 +106,9 @@
 <script setup>
 import FooterView from '../components/FooterView.vue'
 import AnimarionSplashView from '../components/AnimationSplashView.vue'
+import detailJson from '../assets/splash/detail.json'
 import { useRouter } from 'vue-router';
+import { v3ImgPreviewFn } from 'v3-img-preview'
 import { ref } from 'vue';
 
 const router = useRouter()
@@ -90,6 +124,11 @@ function AnimationSplashViewImageOnClick() {
 function toPage(routerStr) {
     router.push(routerStr)
 }
+
+function handleTapImage(url) {
+    v3ImgPreviewFn(url)
+}
+
 
 </script>
 
