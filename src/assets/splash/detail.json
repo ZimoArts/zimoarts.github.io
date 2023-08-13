@@ -1,0 +1,31 @@
+{
+    "navs": {
+        "sculpture": {
+            "scrollImageList": [
+                "/splash/sculpture/A001-main-OK.png",
+                "/splash/sculpture/B001-main-OK.png",
+                "/splash/sculpture/C001-main-OK.png",
+                "/splash/sculpture/C002-main-OK.png",
+                "/splash/sculpture/D001-main-OK.png",
+                "/splash/sculpture/E001-main-OK.png",
+                "/splash/sculpture/F001-main-OK.png",
+                "/splash/sculpture/G001-main-OK.png",
+                "/splash/sculpture/G004-OK.png",
+                "/splash/sculpture/H001-main-OK.png",
+                "/splash/sculpture/I001-main-OK.png",
+                "/splash/sculpture/J001-main-OK.png",
+                "/splash/sculpture/K001-main-OK.png",
+                "/splash/sculpture/L001-main-OK.png",
+                "/splash/sculpture/M001-main-OK.png",
+                "/splash/sculpture/N001-main-OK.png",
+                "/splash/sculpture/O001-main-OK.png",
+                "/splash/sculpture/P001-main-OK.png",
+                "/splash/sculpture/Q001-main-OK.png",
+                "/splash/sculpture/R001-main-OK.png"
+            ]
+        },
+        "photography": {},
+        "theater": {},
+        "digital_design": {}
+    }
+}
