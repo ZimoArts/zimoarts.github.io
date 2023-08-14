@@ -7,11 +7,11 @@
             <div class="absolute bottom-0 right-9 text-2xl flex justify-end items-center">
                 <router-link to="/sculpture" class="pr-6 h-8 hover:cursor-pointer">SCULPTURE</router-link>
                 <div class="w-1.5 h-6 bg-black mr-6"></div>
-                <router-link to="/photography" class="pr-6 h-8 hover:cursor-pointer">PHOTOGRAPHIC WORKS</router-link>
+                <router-link to="/photography" class="pr-6 h-8 hover:cursor-pointer">PHOTOGRAPHIC</router-link>
                 <div class="w-1.5 h-6 bg-black mr-6"></div>
-                <router-link to="/dramatic" class="pr-6 h-8 hover:cursor-pointer">DRAMATIC WORK</router-link>
+                <router-link to="/dramatic" class="pr-6 h-8 hover:cursor-pointer">THEATER</router-link>
                 <div class="w-1.5 h-6 bg-black mr-6"></div>
-                <router-link to="/other" class="pr-6 h-8 hover:cursor-pointer">OTHER</router-link>
+                <router-link to="/other" class="pr-6 h-8 hover:cursor-pointer">MORE</router-link>
             </div>
         </div>
     </div>
