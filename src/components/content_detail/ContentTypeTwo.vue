@@ -20,7 +20,8 @@
     <div class="flex justify-start">
         <div class="mt-9">
             <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-            <div class="w-64 text-sm">{{ item.bottomSubTitle }}</div>
+            <div class="w-64 text-sm">{{ item.size }}</div>
+            <div class="w-64 text-sm">{{ item.material }}</div>
         </div>
         <div class="mt-9 ml-48">{{ item.description }}</div>
     </div>

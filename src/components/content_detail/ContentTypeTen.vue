@@ -17,9 +17,10 @@
         </div>
         <div class="flex">
             <div class="w-3/5 flex">
-                <div class="mt-9 w-1/3">
+                <div class="mt-9 w-3/5">
                     <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-                    <div class="w-64 text-sm">{{ item.bottomSubTitle }}</div>
+                    <div class="w-64 text-sm">{{ item.size }}</div>
+                    <div class="w-full text-sm">{{ item.material }}</div>
                 </div>
             </div>
             <div class="w-2/5">

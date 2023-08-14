@@ -30,7 +30,8 @@
     </div>
     <div class="mt-9">
         <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-        <div class="w-64 text-sm">{{ item.bottomSubTitle }}</div>
+        <div class="w-64 text-sm">{{ item.size }}</div>
+        <div class="text-sm">{{ item.material }}</div>
     </div>
 </template>
 

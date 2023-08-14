@@ -24,8 +24,14 @@
                 "/splash/sculpture/R001-main-OK.png"
             ]
         },
-        "photography": {},
-        "theater": {},
-        "digital_design": {}
+        "photography": {
+            "scrollImageList": []
+        },
+        "theater": {
+            "scrollImageList": []
+        },
+        "digital_design": {
+            "scrollImageList": []
+        }
     }
 }
