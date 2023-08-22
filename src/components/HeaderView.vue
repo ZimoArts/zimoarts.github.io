@@ -15,5 +15,25 @@
             </div>
         </div>
     </div>
+    <FixHeaderMenu v-show="showBottomMenu" class="sticky top-0" />
 </template>
 
+<script setup>
+import { ref } from 'vue';
+import FixHeaderMenu from './FixHeaderMenu.vue';
+
+
+let showBottomMenu = ref(false)
+const handlerScroll = (_event) => {
+    const offSetY = window.pageYOffset
+    if (offSetY >= 216) {
+        showBottomMenu.value = true
+    } else {
+        showBottomMenu.value = false
+    }
+}
+
+window.addEventListener("scroll", handlerScroll, true)
+
+
+</script>
