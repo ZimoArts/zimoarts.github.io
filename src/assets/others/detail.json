@@ -1,20 +1,157 @@
 {
     "items": [
         {
-            "title": "history student and artist, I’ve always been interested",
-            "subTitle": "history student and artist, I’ve always beenhistory student and artist, I’ve always been",
+            "title": "CANVAS",
+            "subTitle": "",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "size": "[ Variable Size ]",
+            "material": "Digital Pic",
+            "mainImageList": [
+                "/others/A-0001-main.png"
+            ],
+            "topImage": "/others/A-0002.png",
+            "type": "13"
+        },
+        {
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "size": "[ Variable Size ]",
+            "material": "Digital Pic",
+            "mainImageList": [
+                "/others/B-0001-main.png"
+            ],
+            "type": "14"
+        },
+        {
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "size": "[ Variable Size ]",
+            "material": "Digital Pic",
+            "videoUrl": "",
+            "type": "15"
+        },
+        {
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "size": "[ 150cm x69cm ] x2",
+            "material": "Photo Paper Microspray",
+            "image1": "/others/C-0001.png",
+            "image2": "/others/C-0002.png",
+            "type": "16"
+        },
+        {
             "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
             "bottomTitle": "ve seen my friends",
-            "bottomSubTitle": "[ 20 in. x 10 in. ] I’ve seen my friends choosing to take the hardest AP 2022",
+            "size": "[ 42.5cm x 30.5cm ]",
+            "material": "Paper,Ink",
             "mainImageList": [
-                "/sculpture/sculpture_main.png",
-                "/sculpture/sculpture_main.png"
+                "/others/D-0001-main.png"
             ],
-            "imageList": [
-                "/sculpture/sculpture_small.png",
-                "/sculpture/sculpture_small.png",
-                "/sculpture/sculpture_small.png"
-            ]
+            "topImage": "/others/D-0002.png",
+            "type": "17"
+        },
+        {
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
+            "bottomTitle": "ve seen my friends",
+            "size": "[ 42.5cm x 30.5cm ]",
+            "material": "Paper,Pencil",
+            "bottomImage": "/others/E-0001-main.png",
+            "topImage": "/others/E-0002.png",
+            "type": "18"
+        },
+        {
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. ",
+            "leftBottomTitle": "ve seen my friends",
+            "leftSize": "[ 42.5cm x 30.5cm ]",
+            "leftMaterial": "Paper,Pencil",
+            "rightBottomTitle": "ve seen my friends",
+            "rightSize": "[ 42.5cm x 30.5cm ]",
+            "rightMaterial": "Paper,Pencil",
+            "topImageLeft": "/others/F-0001.png",
+            "topImageRight": "/others/F-0002.png",
+            "bottomImageLeft": "/others/F-0003.png",
+            "bottomImageRight": "/others/F-0004.png",
+            "type": "19"
+        },
+        {
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. ",
+            "leftBottomTitle": "ve seen my friends",
+            "leftSize": "[ 42.5cm x 30.5cm ]",
+            "leftMaterial": "Paper,Pencil",
+            "leftImage": "/others/G-0001-main.png",
+            "rightBottomTitle": "ve seen my friends",
+            "rightSize": "[ 42.5cm x 30.5cm ]",
+            "rightMaterial": "Paper,Gouache Pigments",
+            "rightImageList": [
+                "/others/G-0002.png",
+                "/others/G-0003.png",
+                "/others/G-0004.png"
+            ],
+            "type": "20"
+        },
+        {
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent.",
+            "leftBottomTitle": "Ai Weiwei",
+            "leftSize": "[ 35cm x 26cm ]",
+            "leftMaterial": "Paper,Ink",
+            "leftImage": "/others/H-0001-main.png",
+            "rightBottomTitle": "Ai Weiwei",
+            "rightSize": "[ 30cm x 21cm ]x2",
+            "rightMaterial": "Paper,Ink",
+            "rightImage1": "/others/H-0002.png",
+            "rightImage2": "/others/H-0003.png",
+            "type": "21"
+        },
+        {
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent.",
+            "topRightImage": "/others/I-0007.png",
+            "lineOneImageList": [
+                {
+                    "imageUrl": "/others/I-0001.png",
+                    "title": "Bold 2023",
+                    "size": "",
+                    "material": ""
+                },
+                {
+                    "imageUrl": "/others/I-0002.png",
+                    "title": "Play full 2023",
+                    "size": "",
+                    "material": ""
+                },
+                {
+                    "imageUrl": "/others/I-0003.png",
+                    "title": "Order 2023",
+                    "size": "",
+                    "material": ""
+                }
+            ],
+            "lineTwoImageList": [
+                {
+                    "imageUrl": "/others/I-0004.png",
+                    "title": "Tension 2023",
+                    "size": "",
+                    "material": ""
+                },
+                {
+                    "imageUrl": "/others/I-0005.png",
+                    "title": "Congested",
+                    "size": "",
+                    "material": ""
+                },
+                {
+                    "imageUrl": "/others/I-0006.png",
+                    "title": "Increase",
+                    "size": "[ 10cm x 10cm ] x 6",
+                    "material": "Cardboard,Glue"
+                }
+            ],
+            "bottomLeftImage": "/others/I-0009.png",
+            "bottomRightImage": "/others/I-0008.png",
+            "bottomTitle": "Tension 2023",
+            "bottomSize": "[ 38cm x 26.5cm ]",
+            "bottomMaterial": "Sketchbook",
+            "type": "22"
         }
     ]
 }

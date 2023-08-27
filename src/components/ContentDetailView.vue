@@ -1,40 +1,70 @@
 <template>
     <div class="w-full pt-9">
         <div v-if="contentType == 1">
-            <ContentTypeOne :item-detail="item" />
+            <ContentType1 :item-detail="item" />
         </div>
         <div v-if="contentType == 2">
-            <ContentTypeTwo :item-detail="item" />
+            <ContentType2 :item-detail="item" />
         </div>
         <div v-if="contentType == 3">
-            <ContentTypeThree :item-detail="item" />
+            <ContentType3 :item-detail="item" />
         </div>
         <div v-if="contentType == 4">
-            <ContentTypeFour :item-detail="item" />
+            <ContentType4 :item-detail="item" />
         </div>
         <div v-if="contentType == 5">
-            <ContentTypeFive :item-detail="item" />
+            <ContentType5 :item-detail="item" />
         </div>
         <div v-if="contentType == 6">
-            <ContentTypeSix :item-detail="item" />
+            <ContentType6 :item-detail="item" />
         </div>
         <div v-if="contentType == 7">
-            <ContentTypeSeven :item-detail="item" />
+            <ContentType7 :item-detail="item" />
         </div>
         <div v-if="contentType == 8">
-            <ContentTypeEight :item-detail="item" />
+            <ContentType8 :item-detail="item" />
         </div>
         <div v-if="contentType == 9">
-            <ContentTypeNine :item-detail="item" />
+            <ContentType9 :item-detail="item" />
         </div>
         <div v-if="contentType == 10">
-            <ContentTypeTen :item-detail="item" />
+            <ContentType10 :item-detail="item" />
         </div>
         <div v-if="contentType == 11">
-            <ContentTypeEleven :item-detail="item" />
+            <ContentType11 :item-detail="item" />
         </div>
         <div v-if="contentType == 12">
-            <ContentTypeTwelve :item-detail="item" />
+            <ContentType12 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 13">
+            <ContentType13 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 14">
+            <ContentType14 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 15">
+            <ContentType15 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 16">
+            <ContentType16 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 17">
+            <ContentType17 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 18">
+            <ContentType18 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 19">
+            <ContentType19 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 20">
+            <ContentType20 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 21">
+            <ContentType21 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 22">
+            <ContentType22 :item-detail="item" />
         </div>
         <div class="border-black border-b flex justify-end mt-28">
             <!-- <img class="w-28" src="../assets/black_zimoart.png" /> -->
@@ -44,18 +74,28 @@
 
 <script setup>
 import { ref } from 'vue';
-import ContentTypeOne from '../components/content_detail/ContentTypeOne.vue'
-import ContentTypeTwo from '../components/content_detail/ContentTypeTwo.vue'
-import ContentTypeThree from '../components/content_detail/ContentTypeThree.vue'
-import ContentTypeFour from '../components/content_detail/ContentTypeFour.vue'
-import ContentTypeFive from '../components/content_detail/ContentTypeFive.vue'
-import ContentTypeSix from '../components/content_detail/ContentTypeSix.vue'
-import ContentTypeSeven from '../components/content_detail/ContentTypeSeven.vue'
-import ContentTypeEight from '../components/content_detail/ContentTypeEight.vue'
-import ContentTypeNine from '../components/content_detail/ContentTypeNine.vue'
-import ContentTypeTen from '../components/content_detail/ContentTypeTen.vue'
-import ContentTypeEleven from '../components/content_detail/ContentTypeEleven.vue'
-import ContentTypeTwelve from '../components/content_detail/ContentTypeTwelve.vue'
+import ContentType1 from '../components/content_detail/ContentType1.vue'
+import ContentType2 from '../components/content_detail/ContentType2.vue'
+import ContentType3 from '../components/content_detail/ContentType3.vue'
+import ContentType4 from '../components/content_detail/ContentType4.vue'
+import ContentType5 from '../components/content_detail/ContentType5.vue'
+import ContentType6 from '../components/content_detail/ContentType6.vue'
+import ContentType7 from '../components/content_detail/ContentType7.vue'
+import ContentType8 from '../components/content_detail/ContentType8.vue'
+import ContentType9 from '../components/content_detail/ContentType9.vue'
+import ContentType10 from '../components/content_detail/ContentType10.vue'
+import ContentType11 from '../components/content_detail/ContentType11.vue'
+import ContentType12 from '../components/content_detail/ContentType12.vue'
+import ContentType13 from '../components/content_detail/ContentType13.vue'
+import ContentType14 from '../components/content_detail/ContentType14.vue'
+import ContentType15 from '../components/content_detail/ContentType15.vue'
+import ContentType16 from '../components/content_detail/ContentType16.vue'
+import ContentType17 from '../components/content_detail/ContentType17.vue'
+import ContentType18 from '../components/content_detail/ContentType18.vue'
+import ContentType19 from '../components/content_detail/ContentType19.vue'
+import ContentType20 from '../components/content_detail/ContentType20.vue'
+import ContentType21 from '../components/content_detail/ContentType21.vue'
+import ContentType22 from '../components/content_detail/ContentType22.vue'
 
 const props = defineProps({
     itemDetail: Object

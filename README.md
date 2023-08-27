@@ -50,3 +50,43 @@ type 11
 type 12
 
 ![type_12](./readme/content-type-12.jpg)
+
+type 13
+
+![type_13](./readme/content-type-13.jpg)
+
+type 14
+
+![type_14](./readme/content-type-14.jpg)
+
+type 15
+
+![type_15](./readme/content-type-15.jpg)
+
+type 16
+
+![type_16](./readme/content-type-16.jpg)
+
+type 17
+
+![type_17](./readme/content-type-17.jpg)
+
+type 18
+
+![type_18](./readme/content-type-18.jpg)
+
+type 19
+
+![type_19](./readme/content-type-19.jpg)
+
+type 20
+
+![type_20](./readme/content-type-20.jpg)
+
+type 21
+
+![type_21](./readme/content-type-21.jpg)
+
+type 22
+
+![type_22](./readme/content-type-22.jpg)
