@@ -39,6 +39,33 @@
         <div v-if="contentType == 13">
             <ContentType13 :item-detail="item" />
         </div>
+        <div v-if="contentType == 14">
+            <ContentType14 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 15">
+            <ContentType15 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 16">
+            <ContentType16 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 17">
+            <ContentType17 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 18">
+            <ContentType18 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 19">
+            <ContentType19 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 20">
+            <ContentType20 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 21">
+            <ContentType21 :item-detail="item" />
+        </div>
+        <div v-if="contentType == 22">
+            <ContentType22 :item-detail="item" />
+        </div>
         <div class="border-black border-b flex justify-end mt-28">
             <!-- <img class="w-28" src="../assets/black_zimoart.png" /> -->
         </div>
@@ -59,7 +86,16 @@ import ContentType9 from '../components/content_detail/ContentType9.vue'
 import ContentType10 from '../components/content_detail/ContentType10.vue'
 import ContentType11 from '../components/content_detail/ContentType11.vue'
 import ContentType12 from '../components/content_detail/ContentType12.vue'
-import ContentType13 from './content_detail/ContentType12.vue';
+import ContentType13 from '../components/content_detail/ContentType13.vue'
+import ContentType14 from '../components/content_detail/ContentType14.vue'
+import ContentType15 from '../components/content_detail/ContentType15.vue'
+import ContentType16 from '../components/content_detail/ContentType16.vue'
+import ContentType17 from '../components/content_detail/ContentType17.vue'
+import ContentType18 from '../components/content_detail/ContentType18.vue'
+import ContentType19 from '../components/content_detail/ContentType19.vue'
+import ContentType20 from '../components/content_detail/ContentType20.vue'
+import ContentType21 from '../components/content_detail/ContentType21.vue'
+import ContentType22 from '../components/content_detail/ContentType22.vue'
 
 const props = defineProps({
     itemDetail: Object

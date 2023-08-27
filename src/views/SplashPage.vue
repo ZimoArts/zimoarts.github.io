@@ -79,7 +79,7 @@
                             <div class="h-36 w-56 pt-2">
                                 <Carousel class="w-full" :autoplay="true" :initIndex="0" :indicator="false"
                                     directionMode="hover">
-                                    <CarouselItem v-for="(image, index) in detailJson.navs.sculpture.scrollImageList"
+                                    <CarouselItem v-for="(image, index) in detailJson.navs.others.scrollImageList"
                                         :key="index" :idx="index">
                                             <img :src="image" class="w-full hover:cursor-pointer" alt=""
                                                 @click="handleTapImage(image)" />
