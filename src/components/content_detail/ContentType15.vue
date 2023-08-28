@@ -1,9 +1,9 @@
 <template>
     <div class="flex justify-start relative mt-12">
         <div class="w-2/5">
-            <div class="w-full mt-6">
-                <div class="flex justify-end">
-                <!-- TODO: add video component -->
+            <div class="w-full">
+                <div class="flex justify-end h-80">
+                    <VideoPlayerComponent :v-url="item.videoUrl" />
                 </div>
             </div>
             <div class="mt-9">
@@ -12,9 +12,9 @@
                 <div class="text-sm">{{ item.material }}</div>
             </div>
         </div>
-        <div class="w-3/5 ml-6 h-full">
+        <div class="w-3/5 ml-6 h-80">
             <div class="w-full h-full flex items-center">
-                <div class="text-sm">
+                <div class="text-lg">
                     {{ item.description }}
                 </div>
             </div>
@@ -26,25 +26,13 @@
 <script setup>
 
 import { ref } from 'vue'
-import { v3ImgPreviewFn } from 'v3-img-preview'
+import VideoPlayerComponent from '../VideoPlayerComponent.vue';
 
 const props = defineProps({
     itemDetail: Object
 })
 
 let item = ref({})
-const contentType = ref(0)
 item = props.itemDetail
-contentType.value = item.type
-
-const hasTitleImageImage = ref(false)
-if (item.titleImage != "") {
-    hasTitleImageImage.value = true
-}
-
-function handleTapImage(url) {
-    v3ImgPreviewFn(url)
-}
-
 
 </script>
