@@ -16,7 +16,7 @@
             <div class="flex mt-6">
                 <div class="w-3/5">
                     <div class="relative h-full mr-9">
-                        <div class="mt-9 absolute bottom-0">{{ item.description }}</div>
+                        <span v-html="item.description"></span>
                     </div>
                 </div>
                 <div class="w-2/5 flex justify-end">

@@ -10,9 +10,7 @@
         </div>
         <div class="w-3/5 ml-6 flex">
             <div class="w-3/5 mt-6 flex items-center">
-                <div class="text-sm">
-                    {{ item.description }}
-                </div>
+                <span v-html="item.description"></span>
             </div>
             <div class="w-2/5">
                 <div class="w-full mt-6">

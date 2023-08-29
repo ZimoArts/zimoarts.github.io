@@ -23,7 +23,7 @@
             <div class="w-64 text-sm">{{ item.size }}</div>
             <div class="w-64 text-sm">{{ item.material }}</div>
         </div>
-        <div class="mt-9 ml-48">{{ item.description }}</div>
+        <span v-html="item.description"></span>
     </div>
 </template>
 

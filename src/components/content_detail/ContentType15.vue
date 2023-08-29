@@ -14,9 +14,7 @@
         </div>
         <div class="w-3/5 ml-6 h-80">
             <div class="w-full h-full flex items-center">
-                <div class="text-lg">
-                    {{ item.description }}
-                </div>
+                <span v-html="item.description"></span>
             </div>
         </div>
     </div>

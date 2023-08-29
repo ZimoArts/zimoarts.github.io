@@ -2,9 +2,7 @@
     <div class="flex justify-start relative mt-12">
         <div class="w-2/5">
             <div class="w-full h-full mt-32 flex">
-                <div class="text-sm">
-                    {{ item.description }}
-                </div>
+                <span v-html="item.description"></span>
             </div>
         </div>
         <div class="w-3/5 h-full">

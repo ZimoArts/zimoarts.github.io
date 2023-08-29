@@ -10,7 +10,7 @@
         </div>
         <div class="w-3/5 ml-6">
             <div class="relative h-full">
-                <div class="">{{ item.description }}</div>
+                <span v-html="item.description"></span>
                 <div class="absolute bottom-4 right-0">
                     <div class="flex justify-end">
                         <template v-for="image in item.imageList">
