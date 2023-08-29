@@ -10,9 +10,7 @@
                 </div>
             </div>
             <div class="w-2/5 flex items-center">
-                <div class="text-base ml-16">
-                    {{ item.description }}
-                </div>
+                <span v-html="item.description"></span>
             </div>
         </div>
         <div class="flex">

@@ -3,9 +3,7 @@
         <div class="w-8/12">
             <div class="mt-9">
                 <div class="w-full h-36 pr-9 flex items-center">
-                    <div class="text-sm">
-                        {{ item.description }}
-                    </div>
+                    <span v-html="item.description"></span>
                 </div>
             </div>
         </div>

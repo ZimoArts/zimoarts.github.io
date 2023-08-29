@@ -9,9 +9,7 @@
         <div class="w-7/12 ml-6">
             <div class="relative h-full">
                 <div class="w-full h-96 pl-28 flex items-center">
-                    <div class="text-sm">
-                        {{ item.description }}
-                    </div>
+                    <span v-html="item.description"></span>
                 </div>
                 <div class="absolute bottom-4 right-0">
                     <div class="flex justify-end">

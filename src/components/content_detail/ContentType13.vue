@@ -20,9 +20,7 @@
                 </div>
             </div>
             <div class="w-full h-36 flex items-center">
-                <div class="text-sm">
-                    {{ item.description }}
-                </div>
+                <span v-html="item.description"></span>
             </div>
         </div>
     </div>
