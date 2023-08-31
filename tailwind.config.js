@@ -9,7 +9,7 @@ module.exports = {
             width:{
                 'sculpture': '102px',
                 'photograpy': '140px',
-                'dramatic': '80px',
+                'dramatic': '90px',
                 'other': '220px',
             }
         },

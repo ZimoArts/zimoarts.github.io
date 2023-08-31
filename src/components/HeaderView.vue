@@ -1,7 +1,7 @@
 <template>
     <div class="w-full h-44 flex justify-start border-b border-black">
         <div class="relative w-full mb-2">
-            <router-link to="/home" class="absolute -bottom-2 left-9 text-lg hover:cursor-pointer">
+            <router-link to="/" class="absolute -bottom-2 left-9 text-lg hover:cursor-pointer">
                 <img class="w-96" src="../assets/header_icon.png" alt="">
             </router-link>
             <div class="absolute bottom-0 right-9 text-2xl flex justify-end items-center">

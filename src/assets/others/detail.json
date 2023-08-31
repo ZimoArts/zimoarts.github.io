@@ -1,15 +1,26 @@
 {
     "items": [
         {
-            "title": "CANVAS",
+            "title": "<span class='text-4xl font-bold'>CANVAS</span><span>罗德岛夏校作品</span>",
+            "subTitle": "",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "ve seen my friends",
+            "size": "[ 150cm x69cm ] x2",
+            "material": "Photo Paper Microspray",
+            "videoUrl": "https://www.youtube.com/embed/h0YWSS9tfao",
+            "image1": "/others/C-0003.png",
+            "image2": "/others/C-0001.png",
+            "image3": "/others/C-0002.png",
+            "type": "16"
+        },
+        {
+            "title": "",
             "subTitle": "",
             "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
             "bottomTitle": "ve seen my friends",
             "size": "[ Variable Size ]",
             "material": "Digital Pic",
-            "mainImageList": [
-                "/others/A-0001-main.png"
-            ],
+            "mainImage": "/others/A-0001-main.png",
             "topImage": "/others/A-0002.png",
             "type": "13"
         },
@@ -32,22 +43,11 @@
             "type": "15"
         },
         {
-            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
-            "bottomTitle": "ve seen my friends",
-            "size": "[ 150cm x69cm ] x2",
-            "material": "Photo Paper Microspray",
-            "image1": "/others/C-0001.png",
-            "image2": "/others/C-0002.png",
-            "type": "16"
-        },
-        {
             "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
             "bottomTitle": "ve seen my friends",
             "size": "[ 42.5cm x 30.5cm ]",
             "material": "Paper,Ink",
-            "mainImageList": [
-                "/others/D-0001-main.png"
-            ],
+            "mainImage": "/others/D-0001-main.png",
             "topImage": "/others/D-0002.png",
             "type": "17"
         },
@@ -91,17 +91,16 @@
             "type": "20"
         },
         {
-            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent.",
-            "leftBottomTitle": "Ai Weiwei",
-            "leftSize": "[ 35cm x 26cm ]",
-            "leftMaterial": "Paper,Ink",
-            "leftImage": "/others/H-0001-main.png",
-            "rightBottomTitle": "Ai Weiwei",
-            "rightSize": "[ 30cm x 21cm ]x2",
-            "rightMaterial": "Paper,Ink",
-            "rightImage1": "/others/H-0002.png",
-            "rightImage2": "/others/H-0003.png",
-            "type": "21"
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities",
+            "bottomTitle": "Ai Weiwei",
+            "size": "[ 42.5cm x 30.5cm ]",
+            "material": "Paper,Ink",
+            "mainImageList": [
+                "/others/H-0001-main.png"
+            ],
+            "topImage": "/others/H-0003.png",
+            "bottomImage": "/others/H-0002.png",
+            "type": "8"
         },
         {
             "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent.",

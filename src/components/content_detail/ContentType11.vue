@@ -14,7 +14,7 @@
                     <img @click="handleTapImage(item.topRightImage)" class="w-72 object-contain hover:cursor-pointer"
                         :src="item.topRightImage" />
                 </div>
-                <span v-html="item.description"></span>
+                <span class="ml-6 mt-16" v-html="item.description"></span>
             </div>
         </div>
         <div class="flex">

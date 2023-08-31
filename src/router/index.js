@@ -1,5 +1,4 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import SplashPage from '../views/SplashPage.vue'
 import HomePage from '../views/HomePage.vue'
 import SculpturePage from '../views/SculpturePage.vue'
 import PhotographyPage from '../views/PhotographyPage.vue'
@@ -11,14 +10,14 @@ const router = createRouter({
     routes: [
         {
             path: '/',
-            name: 'splash',
-            component: SplashPage
-        },
-        {
-            path: '/home',
             name: 'home',
             component: HomePage
         },
+        // {
+        //     path: '/home',
+        //     name: 'home',
+        //     component: HomePage
+        // },
         {
             path: '/sculpture',
             name: 'sculpture',
