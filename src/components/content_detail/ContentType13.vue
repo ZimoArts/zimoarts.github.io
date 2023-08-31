@@ -5,11 +5,9 @@
     </div>
     <div class="flex justify-start relative">
         <div class="w-1/2">
-            <div class="mt-9">
-                <template v-for="mainImage in item.mainImageList">
-                    <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer"
-                        :src="mainImage" alt="">
-                </template>
+            <div class="mt-9 border border-black">
+                <img @click="handleTapImage(item.mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer"
+                    :src="item.mainImage" alt="">
             </div>
         </div>
         <div class="w-1/2 ml-6 h-full">

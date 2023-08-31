@@ -3,10 +3,15 @@
     <div class="w-56">{{ item.subTitle }}</div>
     <div class="flex justify-start mt-9">
         <div class="w-2/5">
-            <template v-for="mainImage in item.mainImageList">
-                <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer"
-                    :src="mainImage" alt="">
-            </template>
+            <div class="flex justify-center">
+                <VideoPlayerComponent class="border border-black mt-3" style="height: 307px; width: 520px;"
+                    :v-url="item.videoUrl" />
+            </div>
+            <div class="mt-2">
+                <div v-html="item.videoTitle"></div>
+            </div>
+            <img @click="handleTapImage(item.mainImage)" class="w-full mb-4 mt-24 object-contain hover:cursor-pointer"
+                :src="item.mainImage" alt="">
         </div>
         <div class="w-3/5 ml-6">
             <div class="relative h-full">
@@ -14,7 +19,7 @@
                 <div class="absolute bottom-4 right-0">
                     <div class="flex justify-end">
                         <template v-for="image in item.imageList">
-                            <img @click="handleTapImage(image)" class="w-64 ml-3 object-contain hover:cursor-pointer"
+                            <img @click="handleTapImage(image)" class="w-1/3 pl-3 object-contain hover:cursor-pointer"
                                 :src="image" />
                         </template>
                     </div>

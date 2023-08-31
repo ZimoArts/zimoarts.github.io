@@ -1,22 +1,32 @@
 <template>
-    <div class="flex justify-start relative mt-12">
-        <div class="w-5/12">
-            <div class="mt-9">
-                <template v-for="mainImage in item.mainImageList">
-                    <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer"
-                        :src="mainImage" alt="">
-                </template>
+    <div class="mt-12">
+        <div class="w-full mt-6">
+            <div class="flex justify-end">
+                <img @click="handleTapImage(item.topImage)" class="w-96 object-contain hover:cursor-pointer"
+                    :src="item.topImage" />
             </div>
         </div>
-        <div class="w-7/12 ml-6 h-full">
-            <div class="w-full mt-6">
-                <div class="flex justify-end">
-                    <img @click="handleTapImage(item.topImage)" class="w-96 object-contain hover:cursor-pointer"
-                        :src="item.topImage" />
+        <div class="w-full flex items-end">
+            <div class="w-5/12">
+                <div class="border border-black">
+                    <img @click="handleTapImage(item.mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer"
+                        :src="item.mainImage" alt="">
                 </div>
             </div>
-            <div class="w-full h-36 pl-9 pr-9 flex items-center">
-                <span v-html="item.description"></span>
+            <div class="w-7/12 ml-14">
+                <div class="w-full h-72 pl-9 pr-9 pb-9 flex items-center">
+                    <span v-html="item.description"></span>
+                </div>
+                <div class="flex pl-9 pr-9">
+                    <div class="w-3/5 flex justify-start">
+                        <img @click="handleTapImage(item.mainImage)" class="w-80 border border-black object-contain hover:cursor-pointer"
+                            :src="item.mainImage" alt="">
+                    </div>
+                    <div class="w-2/5 flex justify-end items-end">
+                        <img @click="handleTapImage(item.mainImage)" class="w-64 border border-black object-contain hover:cursor-pointer"
+                            :src="item.mainImage" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

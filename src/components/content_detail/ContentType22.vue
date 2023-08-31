@@ -1,19 +1,40 @@
 <template>
     <div class="flex justify-start relative mt-12">
-        <div class="w-8/12">
+        <div class="w-7/12">
             <div class="mt-9">
                 <div class="w-full h-36 pr-9 flex items-center">
                     <span v-html="item.description"></span>
                 </div>
             </div>
         </div>
-        <div class="w-4/12 ml-6 h-full">
+        <div class="w-5/12 ml-6 h-full">
             <div class="w-full mt-6">
                 <div class="flex justify-end">
-                    <img @click="handleTapImage(item.topRightImage)" class="w-full object-contain hover:cursor-pointer"
+                    <img @click="handleTapImage(item.topRightImage)" style="width: 543.33px;" class="object-contain hover:cursor-pointer"
                         :src="item.topRightImage" />
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="w-full flex">
+        <div class="w-7/12 flex justify-start">
+            <div class="w-full flex justify-start">
+                <img @click="handleTapImage(item.bottomRightImage)" style="width: 543.33px;" class="object-contain hover:cursor-pointer"
+                    :src="item.bottomRightImage" />
+            </div>
+        </div>
+        <div class="w-5/12 flex justify-end">
+            <div class="w-full flex justify-end">
+                <img @click="handleTapImage(item.bottomLeftImage)" style="width: 543.33px;" class="object-contain hover:cursor-pointer"
+                    :src="item.bottomLeftImage" />
+            </div>
+        </div>
+    </div>
+    <div class="w-full flex justify-end">
+        <div class="mt-1 mr-9">
+            <div class="text-sm font-bold">{{ item.bottomTitle }}</div>
+            <div class="text-sm">{{ item.bottomSize }}</div>
+            <div class="text-sm">{{ item.bottomMaterial }}</div>
         </div>
     </div>
     <div class="w-full flex justify-center relative mt-12">
@@ -84,27 +105,6 @@
                     <div class="text-sm">{{ item.lineTwoImageList[2].material }}</div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="w-full flex">
-        <div class="w-6/12 flex justify-start">
-            <div class="w-3/4 flex justify-start">
-                <img @click="handleTapImage(item.bottomRightImage)" class="w-full object-contain hover:cursor-pointer"
-                    :src="item.bottomRightImage" />
-            </div>
-        </div>
-        <div class="w-6/12 flex justify-end">
-            <div class="w-3/4 flex justify-end">
-                <img @click="handleTapImage(item.bottomLeftImage)" class="w-full object-contain hover:cursor-pointer"
-                    :src="item.bottomLeftImage" />
-            </div>
-        </div>
-    </div>
-    <div class="w-full flex justify-end">
-        <div class="mt-1 mr-9">
-            <div class="text-sm font-bold">{{ item.bottomTitle }}</div>
-            <div class="text-sm">{{ item.bottomSize }}</div>
-            <div class="text-sm">{{ item.bottomMaterial }}</div>
         </div>
     </div>
 </template>
