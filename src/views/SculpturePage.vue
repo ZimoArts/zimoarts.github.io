@@ -4,6 +4,9 @@
         <template v-for="itemDetail in itemDetailList">
             <ContentDetailView :item-detail="itemDetail" class="mb-28" />
         </template>
+        <div class="border-black border-b flex justify-end mt-28">
+            <img class="w-28" src="../assets/black_red_dot_zimoart.png" />
+        </div>
         <FooterView class="mt-20" />
     </div>
 </template>

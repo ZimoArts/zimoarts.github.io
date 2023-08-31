@@ -66,9 +66,6 @@
         <div v-if="contentType == 22">
             <ContentType22 :item-detail="item" />
         </div>
-        <div class="border-black border-b flex justify-end mt-28">
-            <!-- <img class="w-28" src="../assets/black_zimoart.png" /> -->
-        </div>
     </div>
 </template>
 
