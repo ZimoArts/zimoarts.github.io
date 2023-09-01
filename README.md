@@ -1,7 +1,6 @@
 # zimoarts
 
-
-## Content Type Style 
+## Content Type Style
 
 type 1
 
@@ -90,3 +89,7 @@ type 21
 type 22
 
 ![type_22](./readme/content-type-22.jpg)
+
+type 23
+
+![type_23](./readme/content-type-23.jpg)

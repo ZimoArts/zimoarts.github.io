@@ -39,6 +39,7 @@
 
 import { ref } from 'vue'
 import { v3ImgPreviewFn } from 'v3-img-preview'
+import VideoPlayerComponent from '../VideoPlayerComponent.vue';
 
 const props = defineProps({
     itemDetail: Object
