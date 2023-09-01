@@ -66,6 +66,9 @@
         <div v-if="contentType == 22">
             <ContentType22 :item-detail="item" />
         </div>
+        <div v-if="contentType == 23">
+            <ContentType23 :item-detail="item" />
+        </div>
     </div>
 </template>
 
@@ -93,6 +96,7 @@ import ContentType19 from '../components/content_detail/ContentType19.vue'
 import ContentType20 from '../components/content_detail/ContentType20.vue'
 import ContentType21 from '../components/content_detail/ContentType21.vue'
 import ContentType22 from '../components/content_detail/ContentType22.vue'
+import ContentType23 from '../components/content_detail/ContentType23.vue'
 
 const props = defineProps({
     itemDetail: Object
