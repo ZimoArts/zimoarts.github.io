@@ -69,10 +69,6 @@
         <div v-if="contentType == 23">
             <ContentType23 :item-detail="item" />
         </div>
-        <div class="border-b border-white flex justify-end mt-28 ml-9 mr-9">
-            <img class="w-28" src="../assets/red_zimoart.png" />
-        </div>
-        <div class="h-28"></div>
     </div>
 </template>
 

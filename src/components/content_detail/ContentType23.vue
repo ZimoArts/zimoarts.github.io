@@ -2,7 +2,7 @@
     <div class="flex justify-start pt-28 pb-28 mr-9 ml-9">
         <div class="w-3/5">
             <div class="flex justify-center">
-                <VideoPlayerComponent class="border border-black mt-3" style="height: 307px; width: 520px;"
+                <VideoPlayerComponent class="border border-black mt-3" style="height: 408px; width: 680px;"
                     :v-url="item.videoUrl" />
             </div>
         </div>
