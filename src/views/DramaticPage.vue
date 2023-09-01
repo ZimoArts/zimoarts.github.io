@@ -1,7 +1,7 @@
 <template>
     <div class="w-full">
         <HeaderView data-theme="light" />
-        <div class="w-full" data-theme="black">
+        <div class="w-full mt-9" data-theme="black">
             <template v-for="itemDetail in itemDetailList">
                 <ContentDetailView :item-detail="itemDetail" class="mb-28 pl-9 pr-9" />
             </template>
