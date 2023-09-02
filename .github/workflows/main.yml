@@ -6,8 +6,6 @@ name: Build and deploy
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   build:
@@ -26,7 +24,16 @@ jobs:
         run: yarn build
 
       - name: Deploy to GH Pages 🚀
-        uses: peaceiris/actions-gh-pages@v3
+        run: |
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "GitHub Actions"
+          
+          rm -rf docs/
+          cp -R dist/. docs/
+          git add docs/.
+          git commit -m "deploy to docs"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs
+          branch: ${{ github.head_ref }}
+
