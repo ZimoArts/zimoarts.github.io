@@ -7,7 +7,9 @@
             </div>
         </div>
         <div class="w-2/5 ml-6">
-            <div class="relative h-full">
+            <div class="text-lg font-bold">{{ item.title }}</div>
+            <div class="w-72">{{ item.subTitle }}</div>
+            <div class="relative h-full mt-28">
                 <span v-html="item.description"></span>
             </div>
         </div>
