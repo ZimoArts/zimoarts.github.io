@@ -1,29 +1,64 @@
 {
-    "scrollImageList": [
-        {
-            "url": "/sculpture/sculpture_main.png",
-            "title": "ve seen my friends",
-            "subTitle": "[ 20 in. x 10 in. ]I’ve seen my friends choosingto take the hardest AP 2022"
+    "navs": {
+        "sculpture": {
+            "scrollImageList": [
+                "/splash/sculpture/A001-main-OK.png",
+                "/splash/sculpture/B001-main-OK.png",
+                "/splash/sculpture/C001-main-OK.png",
+                "/splash/sculpture/C002-main-OK.png",
+                "/splash/sculpture/D001-main-OK.png",
+                "/splash/sculpture/E001-main-OK.png",
+                "/splash/sculpture/F001-main-OK.png",
+                "/splash/sculpture/G001-main-OK.png",
+                "/splash/sculpture/G004-OK.png",
+                "/splash/sculpture/H001-main-OK.png",
+                "/splash/sculpture/I001-main-OK.png",
+                "/splash/sculpture/J001-main-OK.png",
+                "/splash/sculpture/K001-main-OK.png",
+                "/splash/sculpture/L001-main-OK.png",
+                "/splash/sculpture/M001-main-OK.png",
+                "/splash/sculpture/N001-main-OK.png",
+                "/splash/sculpture/O001-main-OK.png",
+                "/splash/sculpture/P001-main-OK.png",
+                "/splash/sculpture/Q001-main-OK.png",
+                "/splash/sculpture/R001-main-OK.png",
+                "/splash/sculpture/S-0001-main-OK.png"
+            ]
         },
-        {
-            "url": "/sculpture/sculpture_main.png",
-            "title": "ve seen my friends",
-            "subTitle": "[ 20 in. x 10 in. ]I’ve seen my friends choosingto take the hardest AP 2022"
+        "photography": {
+            "scrollImageList": []
         },
-        {
-            "url": "/sculpture/sculpture_main.png",
-            "title": "ve seen my friends",
-            "subTitle": "[ 20 in. x 10 in. ]I’ve seen my friends choosingto take the hardest AP 2022"
+        "dramatic1": {
+            "scrollItemList": ["https://www.youtube.com/embed/-dGMVmWorzY","https://www.youtube.com/embed/cbythVmsVEI"]
         },
-        {
-            "url": "/sculpture/sculpture_main.png",
-            "title": "ve seen my friends",
-            "subTitle": "[ 20 in. x 10 in. ]I’ve seen my friends choosingto take the hardest AP 2022"
+        "dramatic2": {
+            "scrollItemList": ["https://www.youtube.com/embed/OEiECI_2ZCU"]
         },
-        {
-            "url": "/sculpture/sculpture_main.png",
-            "title": "ve seen my friends",
-            "subTitle": "[ 20 in. x 10 in. ]I’ve seen my friends choosingto take the hardest AP 2022"
+        "others": {
+            "scrollImageList": [
+                "/splash/others/A-0001-main-OK.png",
+                "/splash/others/A-0002-OK.png",
+                "/splash/others/B-0001-main-OK.png",
+                "/splash/others/C-0001-OK.png",
+                "/splash/others/D-0001-main-OK.png",
+                "/splash/others/E-0001-main-OK.png",
+                "/splash/others/F-0002-OK.png",
+                "/splash/others/F-0003-OK.png",
+                "/splash/others/G-0001-main-OK.png",
+                "/splash/others/G-0002-OK.png",
+                "/splash/others/G-0003-OK.png",
+                "/splash/others/G-0004-OK.png",
+                "/splash/others/G-0005-OK.png",
+                "/splash/others/H-0001-main-OK.png",
+                "/splash/others/I-0001-OK.png",
+                "/splash/others/I-0002-OK.png",
+                "/splash/others/I-0003-OK.png",
+                "/splash/others/I-0004.png",
+                "/splash/others/I-0005-OK.png",
+                "/splash/others/I-0006-OK.png",
+                "/splash/others/I-0007-OK.png",
+                "/splash/others/I-0009-OK.png"
+            ]
         }
-    ]
+    }
 }

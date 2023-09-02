@@ -1,11 +1,16 @@
 {
     "items": [
         {
-            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
+            "title": "Be Who You Are",
+            "subTitle": "2022 One Act",
+            "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent.",
             "videoUrl": "https://www.youtube.com/embed/-dGMVmWorzY",
-            "type": "23"
+            "subVideoUrl": "https://www.youtube.com/embed/cbythVmsVEI",
+            "type": "24"
         },
         {
+            "title": "Me And Myself",
+            "subTitle": "2023 September",
             "description": "view every school like a different box. Students are forced to be placed into these boxes so that schools can evaluate their success with various standards. For example, to put yourself into the “Ivy” box, you need a good SAT score, a high GPA, good activities, and maybe a wealthy or successful parent. Even if you have all that, you need some luck. However, most of the time, what’s written on the resume or application of an applicant isn’t who one really is. There are additional unwritten qualities in each person that makes them a separate and special individual. To me, education means more than just putting oneself into boxes.",
             "videoUrl": "https://www.youtube.com/embed/OEiECI_2ZCU",
             "type": "23"

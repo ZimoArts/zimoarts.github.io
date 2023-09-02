@@ -8,8 +8,8 @@ module.exports = {
         extend: {
             width:{
                 'sculpture': '102px',
-                'photograpy': '140px',
-                'dramatic': '90px',
+                'photograpy': '190px',
+                'dramatic': '170px',
                 'other': '220px',
             }
         },
