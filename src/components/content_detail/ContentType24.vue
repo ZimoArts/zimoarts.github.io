@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-start items-end pt-28 pb-28 mr-9 ml-9">
+    <div class="flex justify-start items-end pt-28 mr-9 ml-9">
         <div class="w-3/5">
             <div class="text-lg font-bold">{{ item.title }}</div>
             <div class="w-72">{{ item.subTitle }}</div>
