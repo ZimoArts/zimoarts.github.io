@@ -25,8 +25,8 @@ jobs:
 
       - name: Deploy to GH Pages 🚀
         run: |
-          git config --global user.email "no-reply@github.com"
-          git config --global user.name "GitHub Actions"
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
           
           rm -rf docs/
           cp -R dist/. docs/
