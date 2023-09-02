@@ -1,7 +1,7 @@
 <template>
     <div class="mt-12">
-        <div class="w-64 text-lg font-bold">{{ item.title }}</div>
-        <div class="w-56">{{ item.subTitle }}</div>
+        <div class="text-lg font-bold">{{ item.title }}</div>
+        <div class="w-72">{{ item.subTitle }}</div>
     </div>
     <div class="flex justify-start relative">
         <div class="w-1/2">

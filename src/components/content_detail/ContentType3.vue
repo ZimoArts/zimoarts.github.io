@@ -1,6 +1,6 @@
 <template>
-    <div class="w-64 text-lg font-bold">{{ item.title }}</div>
-    <div class="w-56">{{ item.subTitle }}</div>
+    <div class="text-lg font-bold">{{ item.title }}</div>
+    <div class="w-72">{{ item.subTitle }}</div>
     <div class="flex justify-start mt-9">
         <div class="w-2/5">
             <div class="flex justify-center">
