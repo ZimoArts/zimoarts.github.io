@@ -24,7 +24,7 @@
                                         :v-url="item" />
                                 </CarouselItem>
                             </Carousel> -->
-                            <VideoPlayerComponent style="height: 142px; width: 211px;"
+                            <VideoPlayerComponent style="height: 142px; width: 218px;"
                                 :v-url="detailJson.navs.dramatic1.scrollItemList[0]" />
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                                         style="height: 408px; width: 680px;" :v-url="item" />
                                 </CarouselItem>
                             </Carousel> -->
-                            <VideoPlayerComponent style="height: 142px; width: 211px;"
+                            <VideoPlayerComponent style="height: 142px; width: 218px;"
                                 :v-url="detailJson.navs.dramatic2.scrollItemList[0]" />
                         </div>
                     </div>

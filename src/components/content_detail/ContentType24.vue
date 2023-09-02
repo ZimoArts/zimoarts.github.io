@@ -12,7 +12,7 @@
             <div class="relative h-full mt-14">
                 <span v-html="item.description"></span>
                 <div class="w-full flex justify-center">
-                    <VideoPlayerComponent class="border border-black mt-3" style="height: 240px; width: 400px;"
+                    <VideoPlayerComponent class="border border-black mt-16" style="height: 240px; width: 400px;"
                         :v-url="item.subVideoUrl" />
                 </div>
             </div>
