@@ -1,6 +1,6 @@
 <template>
     <!-- <AnimarionSplashView :class="fadeoutClass" v-on:image-click="AnimationSplashViewImageOnClick" /> -->
-    <div class="w-full" v-show="showSplashView">
+    <div class="w-full pl-9 pr-9" v-show="showSplashView">
         <div class="w-full flex justify-center">
             <div class="w-1/2">
                 <div class="w-11/12 mt-9 h-36">
@@ -123,7 +123,7 @@
                 </div>
             </div>
         </div>
-        <FooterView class="mt-24" />
+        <FooterView class="mt-24 pl-9 pr-9" />
     </div>
 </template>
 
