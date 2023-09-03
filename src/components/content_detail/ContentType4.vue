@@ -9,7 +9,7 @@
         <div class="w-3/5 ml-6 h-full">
             <div class="flex">
                 <div class="w-1/2">
-                    <div class="w-64 text-lg font-bold">{{ item.title }}</div>
+                    <div class="text-lg font-bold">{{ item.title }}</div>
                     <div class="w-56">{{ item.subTitle }}</div>
                 </div>
                 <div class="w-1/2 flex justify-end">

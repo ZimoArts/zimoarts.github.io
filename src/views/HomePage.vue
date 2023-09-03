@@ -1,6 +1,6 @@
 <template>
     <!-- <AnimarionSplashView :class="fadeoutClass" v-on:image-click="AnimationSplashViewImageOnClick" /> -->
-    <div class="w-full" v-show="showSplashView">
+    <div class="w-full pl-9 pr-9" v-show="showSplashView">
         <div class="w-full flex justify-center">
             <div class="w-1/2">
                 <div class="w-11/12 mt-9 h-36">
@@ -111,10 +111,10 @@
                                     </CarouselItem>
                                 </Carousel>
                             </div>
-                            <div class="w-full relative bottom-0 left-0 border-b border-black">
+                            <div class="w-full relative bottom-0 right-0 border-b border-black">
                                 <div class="absolute bottom-0 right-0 w-other transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                     @click="toPage('/other')">
-                                    <div class="text-lg text-left">Digital Design(&others)</div>
+                                    <div class="text-lg text-right">Digital Design(&others)</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@
                 </div>
             </div>
         </div>
-        <FooterView class="mt-24" />
+        <FooterView class="mt-24 pl-9 pr-9" />
     </div>
 </template>
 
