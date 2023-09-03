@@ -4,7 +4,7 @@
             <router-link to="/" class="absolute -bottom-2 left-9 text-lg hover:cursor-pointer">
                 <img class="w-96" src="../assets/header_icon.png" alt="">
             </router-link>
-            <div class="absolute bottom-0 right-9 text-2xl flex justify-end items-center">
+            <div class="absolute bottom-0 right-9 text-lg flex justify-end items-center">
                 <router-link to="/sculpture" class="pr-6 h-8 hover:cursor-pointer">SCULPTURE</router-link>
                 <div class="w-1.5 h-6 bg-black mr-6"></div>
                 <router-link to="/photography" class="pr-6 h-8 hover:cursor-pointer">PHOTOGRAPHY WORK</router-link>
