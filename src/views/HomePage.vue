@@ -12,7 +12,7 @@
                         <div class="w-full relative border-b border-black">
                             <div class="absolute bottom-0 left-0  w-dramatic transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                 @click="toPage('/dramatic')">
-                                <div class="text-lg text-left">PERFORMANCE ART</div>
+                                <div class="text-lg text-left">Performance Art</div>
                                 <div class="h-2 bg-black"></div>
                             </div>
                         </div>
@@ -32,9 +32,9 @@
                 <div class="w-11/12 flex h-36 mt-28">
                     <div class="w-full flex items-center">
                         <div class="w-full relative border-b border-black">
-                            <div class="absolute bottom-0 left-0  w-dramatic transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
+                            <div class="absolute bottom-0 left-0  w-interview transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                 @click="toPage('/dramatic')">
-                                <div class="text-lg text-left">PERFORMANCE ART</div>
+                                <div class="text-lg text-left">Interview: The Dreamers & Influencer</div>
                                 <div class="h-2 bg-black"></div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                             <div class="w-full relative bottom-0 flex border-b border-black">
                                 <div class="absolute bottom-0 right-0 w-sculpture transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                     @click="toPage('/sculpture')">
-                                    <div class="text-lg text-right">SCULPTURE</div>
+                                    <div class="text-lg text-right">Sculpture</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                             <div class="w-full relative bottom-0 right-0 border-b border-black">
                                 <div class="absolute bottom-0 right-0 w-photograpy transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                     @click="toPage('/photography')">
-                                    <div class="text-lg text-right">PHOTOGRAPHY WORK</div>
+                                    <div class="text-lg text-right">Photography</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
                             <div class="w-full relative bottom-0 left-0 border-b border-black">
                                 <div class="absolute bottom-0 right-0 w-other transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
                                     @click="toPage('/other')">
-                                    <div class="text-lg text-left">DIGITAL DESIGN (& MORE)</div>
+                                    <div class="text-lg text-left">Digital Design(&others)</div>
                                     <div class="h-2 bg-black"></div>
                                 </div>
                             </div>
