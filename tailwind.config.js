@@ -7,10 +7,11 @@ module.exports = {
     theme: {
         extend: {
             width:{
-                'sculpture': '102px',
-                'photograpy': '190px',
+                'sculpture': '80px',
+                'photograpy': '105px',
                 'dramatic': '170px',
-                'other': '220px',
+                'interview': '300px',
+                'other': '190px',
             }
         },
     },

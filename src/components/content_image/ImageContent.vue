@@ -4,8 +4,8 @@
             <div class="mr-5" v-for="imageInfo in imageInfoList">
                 <img @click="handleTapImage(imageInfo.url)" class="w-96 object-contain hover:cursor-pointer" :src="imageInfo.url" alt="">
                 <div class="flex justify-start ml-3">
-                    <div class="text-sm font-bold">{{ imageInfo.title }}</div>
-                    <div class="text-sm">{{ imageInfo.text }}</div>
+                    <div v-html="imageInfo.title"></div>
+                    <!-- <div v-html="imageInfo.text"></div> -->
                 </div>
             </div>
         </div>
