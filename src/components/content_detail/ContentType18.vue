@@ -10,7 +10,7 @@
         <div class="w-4/12 ml-6 h-full">
             <div class="w-full mt-6">
                 <div class="flex justify-end">
-                    <img @click="handleTapImage(item.topImage)" class="w-full object-contain hover:cursor-pointer"
+                    <img @click="handleTapImage(item.topImage)" class="w-full object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="item.topImage" />
                 </div>
             </div>
@@ -20,7 +20,7 @@
         <div class="w-9/12">
             <div class="w-full mt-6">
                 <div class="flex justify-start">
-                    <img @click="handleTapImage(item.bottomImage)" class="w-full object-contain hover:cursor-pointer"
+                    <img @click="handleTapImage(item.bottomImage)" class="w-full object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="item.bottomImage" />
                 </div>
             </div>

@@ -8,7 +8,7 @@
             </div>
             <div class="w-full mt-6">
                 <div class="flex justify-end">
-                    <img @click="handleTapImage(item.leftImage)" class="w-full object-contain hover:cursor-pointer"
+                    <img @click="handleTapImage(item.leftImage)" class="w-full object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="item.leftImage" />
                 </div>
             </div>
@@ -22,7 +22,7 @@
         </div>
         <div class="w-5/12 pl-6 h-full">
             <template v-for="image in item.rightImageList">
-                <img @click="handleTapImage(image)" class="w-full object-contain hover:cursor-pointer" :src="image" />
+                <img @click="handleTapImage(image)" class="w-full object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150" :src="image" />
             </template>
             <div class="pl-10 flex justify-start">
                 <div class="mt-9">

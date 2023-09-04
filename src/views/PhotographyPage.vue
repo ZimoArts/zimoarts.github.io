@@ -6,6 +6,9 @@
                 <span v-html="detailJson.pageTitle" class="ml-9 mr-9 pt-4 pb-4"></span>
             </div>
         </div>
+        <div class="w-full flex justify-center mt-16 pl-9 pr-9">
+            <span v-html="detailJson.description" class="pl-9 pr-9"></span>
+        </div>
         <template v-for="itemDetail in itemDetailList">
             <ImageContent :image-infos="itemDetail" />
         </template>

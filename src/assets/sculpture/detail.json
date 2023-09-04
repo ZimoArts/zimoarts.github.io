@@ -247,48 +247,6 @@
             "topRightImage": "/sculpture/P003-OK.png",
             "bottomRightImage": "/sculpture/P002-OK.png",
             "type": "11"
-        },
-        {
-            "title": "This Decade 1",
-            "subTitle": "",
-            "description": "",
-            "bottomTitle": "",
-            "size": "[ 28cm x 20cm x 10cm ]",
-            "material": "Flower Bud、Cicada Shell、Cardboard、Acrylic paint、Bamboo Stick、Rice Paper、Ink、Glue.",
-            "mainImageList": [
-                "/sculpture/J001-main-OK.png"
-            ],
-            "topImage": "/sculpture/J002-OK.png",
-            "bottomImage": "/sculpture/J003-OK.png",
-            "type": "8"
-        },
-        {
-            "title": "This Decade 2",
-            "subTitle": "",
-            "description": "",
-            "bottomTitle": "",
-            "size": "[  28cm x 20cm x 10cm ]",
-            "material": "Flower Bud、Cicada Shell、Cardboard、Acrylic paint、Bamboo Stick、Tree branch、Medical Gauze、Rice Paper、Ink、Glue.",
-            "mainImageList": [
-                "/sculpture/K001-main-OK.png"
-            ],
-            "topImage": "/sculpture/K002-OK.png",
-            "bottomImage": "/sculpture/K003-OK.png",
-            "type": "8"
-        },
-        {
-            "title": "This Decade 3",
-            "subTitle": "",
-            "description": "",
-            "bottomTitle": "",
-            "size": "[ 28cm x 20cm x 10cm ]",
-            "material": "Rice Paper、Cicada Shell、Rice Paper、Acrylic paint、Bamboo Stick、Rice Paper、Ink、Glue.",
-            "mainImageList": [
-                "/sculpture/L001-main-OK.png"
-            ],
-            "topImage": "/sculpture/L002-OK.png",
-            "bottomImage": "/sculpture/L003-OK.png",
-            "type": "8"
         }
     ]
 }

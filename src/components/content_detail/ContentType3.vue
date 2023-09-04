@@ -10,7 +10,7 @@
             <div class="mt-2">
                 <div v-html="item.videoTitle"></div>
             </div>
-            <img @click="handleTapImage(item.mainImage)" class="w-full mb-4 mt-24 object-contain hover:cursor-pointer"
+            <img @click="handleTapImage(item.mainImage)" class="w-full mb-4 mt-24 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                 :src="item.mainImage" alt="">
         </div>
         <div class="w-3/5 ml-6">
@@ -19,7 +19,7 @@
                 <div class="absolute bottom-4 right-0">
                     <div class="flex justify-end">
                         <template v-for="image in item.imageList">
-                            <img @click="handleTapImage(image)" class="w-1/3 pl-3 object-contain hover:cursor-pointer"
+                            <img @click="handleTapImage(image)" class="w-1/3 pl-3 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                                 :src="image" />
                         </template>
                     </div>

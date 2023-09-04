@@ -9,7 +9,7 @@
             <div class="w-full mt-6">
                 <div class="flex justify-end">
                     <template v-for="mainImage in item.mainImageList">
-                        <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer"
+                        <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                             :src="mainImage" alt="">
                     </template>
                 </div>

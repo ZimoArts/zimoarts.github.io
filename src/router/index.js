@@ -4,6 +4,7 @@ import SculpturePage from '../views/SculpturePage.vue'
 import PhotographyPage from '../views/PhotographyPage.vue'
 import DramaticPage from '../views/DramaticPage.vue'
 import OtherPage from '../views/OtherPage.vue'
+import InterviewPageVue from '../views/InterviewPage.vue'
 
 const router = createRouter({
     history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -13,11 +14,6 @@ const router = createRouter({
             name: 'home',
             component: HomePage
         },
-        // {
-        //     path: '/home',
-        //     name: 'home',
-        //     component: HomePage
-        // },
         {
             path: '/sculpture',
             name: 'sculpture',
@@ -32,6 +28,11 @@ const router = createRouter({
             path: '/dramatic',
             name: 'dramatic',
             component: DramaticPage
+        },
+        {
+            path: '/interview',
+            name: 'interview',
+            component: InterviewPageVue
         },
         {
             path: '/other',

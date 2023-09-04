@@ -6,14 +6,14 @@
     <div class="flex justify-start relative">
         <div class="w-1/2">
             <div class="mt-9 border border-black">
-                <img @click="handleTapImage(item.mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer"
+                <img @click="handleTapImage(item.mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                     :src="item.mainImage" alt="">
             </div>
         </div>
         <div class="w-1/2 ml-6 h-full">
             <div class="w-full mt-6">
                 <div class="flex justify-end">
-                    <img @click="handleTapImage(item.topImage)" class="w-4/5 ml-9 object-contain hover:cursor-pointer"
+                    <img @click="handleTapImage(item.topImage)" class="w-4/5 ml-9 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="item.topImage" />
                 </div>
             </div>

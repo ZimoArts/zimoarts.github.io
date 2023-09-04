@@ -26,7 +26,33 @@
             ]
         },
         "photography": {
-            "scrollImageList": []
+            "scrollImageList": [
+                "/photography/1-OK.png",
+                "/photography/2-OK.png",
+                "/photography/3-OK.png",
+                "/photography/4-OK.png",
+                "/photography/5-OK.png",
+                "/photography/6-OK.png",
+                "/photography/7-OK.png",
+                "/photography/8-OK.png",
+                "/photography/9-OK.png",
+                "/photography/10-OK.png",
+                "/photography/11-OK.png",
+                "/photography/12-OK.png",
+                "/photography/13-OK.png",
+                "/photography/14-OK.png",
+                "/photography/15-OK.png",
+                "/photography/16-OK.png",
+                "/photography/17-OK.png",
+                "/photography/18-OK.png",
+                "/photography/19-OK.png",
+                "/photography/21-OK.png",
+                "/photography/22-OK.png",
+                "/photography/23-OK.png",
+                "/photography/24-OK.png",
+                "/photography/25-OK.png",
+                "/photography/26-OK.png"
+            ]
         },
         "dramatic1": {
             "scrollItemList": ["https://www.youtube.com/embed/-dGMVmWorzY","https://www.youtube.com/embed/cbythVmsVEI"]
