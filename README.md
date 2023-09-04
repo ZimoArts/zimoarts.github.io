@@ -93,12 +93,3 @@ type 22
 type 23
 
 ![type_23](./readme/content-type-23.jpg)
-
-1 调航条!
-2 照片变化特效
-3 Sculpture page 最后三个 不要 但是前面所有的保留标题 和description!
-4 photography 页面 标题和照片中间加description!
-5 照片顺序按 我爸爸发的那个顺序调整一下
-6 打开动画 按最开始的那个logo做
-7 主页photography 滚动条照片
-8 Sculputre 那个this decade description 字比其他的description要笑!
