@@ -19,7 +19,7 @@
             </div>
             <div class="flex">
                 <div class="flex justify-start w-3/4 items-center">
-                    <div class="mt-9 text-xs">{{ item.description }}</div>
+                    <span v-html="item.description"></span>
                 </div>
                 <div class="flex justify-end w-52">
                     <img @click="handleTapImage(item.midImage)" class="w-44 ml-9 object-contain hover:cursor-pointer"
