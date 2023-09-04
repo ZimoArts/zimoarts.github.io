@@ -3,7 +3,7 @@
     <div class="w-72">{{ item.subTitle }}</div>
     <div class="flex justify-start mt-9">
         <div class="w-5/12">
-            <img @click="handleTapImage(item.leftImage)" class="w-full mb-4 object-contain hover:cursor-pointer"
+            <img @click="handleTapImage(item.leftImage)" class="w-full mb-4 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                 :src="item.leftImage" alt="">
         </div>
         <div class="w-7/12 ml-6">
@@ -14,9 +14,9 @@
                 <div class="absolute bottom-4 right-0">
                     <div class="flex justify-end">
                         <img @click="handleTapImage(item.rightImage1)"
-                            class="w-1/3 ml-3 object-contain hover:cursor-pointer" :src="item.rightImage1" />
+                            class="w-1/3 ml-3 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150" :src="item.rightImage1" />
                         <img @click="handleTapImage(item.rightImage2)"
-                            class="w-1/3 ml-3 object-contain hover:cursor-pointer" :src="item.rightImage2" />
+                            class="w-1/3 ml-3 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150" :src="item.rightImage2" />
                     </div>
                 </div>
             </div>

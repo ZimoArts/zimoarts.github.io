@@ -4,14 +4,14 @@
     <div class="flex justify-start mt-12">
         <div class="w-3/5">
             <template v-for="mainImage in item.mainImageList">
-                <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer"
+                <img @click="handleTapImage(mainImage)" class="w-full mb-4 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                     :src="mainImage" alt="">
             </template>
         </div>
         <div class="w-2/5 ml-6">
             <template v-for="image in item.imageList">
                 <div class="w-full flex justify-end mb-4">
-                    <img @click="handleTapImage(image)" class="w-3/4 bg-gray-50 object-contain hover:cursor-pointer"
+                    <img @click="handleTapImage(image)" class="w-3/4 bg-gray-50 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="image" />
                 </div>
             </template>

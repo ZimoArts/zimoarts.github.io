@@ -19,15 +19,15 @@
         <div class="w-full flex justify-end mt-24">
             <div class="w-9/12 flex">
                 <div class="w-1/3 border border-black">
-                    <img @click="handleTapImage(item.image1)" class="w-full p-3 object-scale-down hover:cursor-pointer"
+                    <img @click="handleTapImage(item.image1)" class="w-full p-3 object-scale-down hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="item.image1" alt="">
                 </div>
                 <div class="w-1/3 border border-black ml-4">
-                    <img @click="handleTapImage(item.image2)" class="w-full object-contain hover:cursor-pointer"
+                    <img @click="handleTapImage(item.image2)" class="w-full object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="item.image2" alt="">
                 </div>
                 <div class="w-1/3 border border-black ml-4">
-                    <img @click="handleTapImage(item.image3)" class="w-full object-contain hover:cursor-pointer"
+                    <img @click="handleTapImage(item.image3)" class="w-full object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="item.image3" alt="">
                 </div>
             </div>
