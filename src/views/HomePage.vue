@@ -62,7 +62,7 @@
                                     :indicator="false" directionMode="hover">
                                     <CarouselItem v-for="(image, index) in detailJson.navs.sculpture.scrollImageList"
                                         :key="index" :idx="index">
-                                        <img :src="image" class="w-full hover:cursor-pointer" alt=""
+                                        <img :src="image" class="w-full hover:cursor-pointer object-contain" alt=""
                                             @click="handleTapImage(image)" />
                                     </CarouselItem>
                                 </Carousel>
@@ -84,7 +84,7 @@
                                     :indicator="false" directionMode="hover">
                                     <CarouselItem v-for="(image, index) in detailJson.navs.photography.scrollImageList"
                                         :key="index" :idx="index">
-                                        <img :src="image" class="w-full hover:cursor-pointer" alt=""
+                                        <img :src="image" class="hover:cursor-pointer object-contain" alt=""
                                             @click="handleTapImage(image)" />
                                     </CarouselItem>
                                 </Carousel>
@@ -106,7 +106,7 @@
                                     :indicator="false" directionMode="hover">
                                     <CarouselItem v-for="(image, index) in detailJson.navs.others.scrollImageList"
                                         :key="index" :idx="index">
-                                        <img :src="image" class="w-full hover:cursor-pointer" alt=""
+                                        <img :src="image" class="w-full hover:cursor-pointer object-contain" alt=""
                                             @click="handleTapImage(image)" />
                                     </CarouselItem>
                                 </Carousel>
@@ -126,7 +126,7 @@
         <div class="w-full flex mt-64">
             <div class="w-2/5 flex justify-center">
                 <img @click="handleTapImage(detailJson.about.mainImageUrl)"
-                    class="w-3/4 bg-gray-50 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
+                    class="w-3/4 object-cover hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                     :src="detailJson.about.mainImageUrl" />
 
             </div>
