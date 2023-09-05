@@ -16,7 +16,7 @@
                                 <div class="h-2 bg-black"></div>
                             </div>
                         </div>
-                        <div class="h-36 w-80 flex items-center border border-black">
+                        <div class="flex items-center border border-black">
                             <!-- <Carousel :autoplay="true" :initIndex="0" :indicator="false" directionMode="hover">
                                 <CarouselItem v-for="(item, index) in detailJson.navs.dramatic1.scrollItemList" :key="index"
                                     :idx="index">
@@ -24,7 +24,7 @@
                                         :v-url="item" />
                                 </CarouselItem>
                             </Carousel> -->
-                            <VideoPlayerComponent style="height: 142px; width: 218px;"
+                            <VideoPlayerComponent style="width: 280px; height: 172px;"
                                 :v-url="detailJson.navs.dramatic1.scrollItemList[0]" />
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                                 <div class="h-2 bg-black"></div>
                             </div>
                         </div>
-                        <div class="h-36 w-80 flex items-center border border-black">
+                        <div class="flex items-center border border-black">
                             <!-- <Carousel :autoplay="true" :initIndex="0" :indicator="false" directionMode="hover">
                                 <CarouselItem v-for="(item, index) in detailJson.navs.dramatic2.scrollItemList" :key="index"
                                     :idx="index">
@@ -46,7 +46,7 @@
                                         style="height: 408px; width: 680px;" :v-url="item" />
                                 </CarouselItem>
                             </Carousel> -->
-                            <VideoPlayerComponent style="height: 142px; width: 218px;"
+                            <VideoPlayerComponent style="width: 280px; height: 172px;"
                                 :v-url="detailJson.navs.dramatic2.scrollItemList[0]" />
                         </div>
                     </div>
@@ -57,9 +57,9 @@
                     <!-- sculpture -->
                     <div class="w-full flex h-36 relative">
                         <div class="w-full flex items-center">
-                            <div class="h-36 w-80 flex items-center border border-black">
-                                <Carousel class="w-full" :autoplay="true" :initIndex="0" :indicator="false"
-                                    directionMode="hover">
+                            <div class="flex items-center border border-black">
+                                <Carousel style="width: 280px; height: 172px;" :autoplay="true" :initIndex="0"
+                                    :indicator="false" directionMode="hover">
                                     <CarouselItem v-for="(image, index) in detailJson.navs.sculpture.scrollImageList"
                                         :key="index" :idx="index">
                                         <img :src="image" class="w-full hover:cursor-pointer" alt=""
@@ -79,9 +79,9 @@
                     <!-- photography -->
                     <div class="w-full flex h-36 relative mt-28">
                         <div class="w-full flex items-center">
-                            <div class="h-36 w-80 flex items-center border border-black">
-                                <Carousel class="w-full" :autoplay="true" :initIndex="0" :indicator="false"
-                                    directionMode="hover">
+                            <div class="flex items-center border border-black">
+                                <Carousel style="width: 280px; height: 172px;" :autoplay="true" :initIndex="0"
+                                    :indicator="false" directionMode="hover">
                                     <CarouselItem v-for="(image, index) in detailJson.navs.photography.scrollImageList"
                                         :key="index" :idx="index">
                                         <img :src="image" class="w-full hover:cursor-pointer" alt=""
@@ -101,9 +101,9 @@
                     <!-- others -->
                     <div class="w-full flex h-36 relative mt-28">
                         <div class="w-full flex items-center">
-                            <div class="h-36 w-80 flex items-center border border-black">
-                                <Carousel class="w-full" :autoplay="true" :initIndex="0" :indicator="false"
-                                    directionMode="hover">
+                            <div class="flex items-center border border-black">
+                                <Carousel style="width: 280px; height: 172px;" :autoplay="true" :initIndex="0"
+                                    :indicator="false" directionMode="hover">
                                     <CarouselItem v-for="(image, index) in detailJson.navs.others.scrollImageList"
                                         :key="index" :idx="index">
                                         <img :src="image" class="w-full hover:cursor-pointer" alt=""
@@ -120,6 +120,22 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex mt-64">
+            <div class="w-2/5 flex justify-center">
+                <img @click="handleTapImage(detailJson.about.mainImageUrl)"
+                    class="w-3/4 bg-gray-50 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
+                    :src="detailJson.about.mainImageUrl" />
+
+            </div>
+            <div class="w-3/5">
+                <div class="w-full flex justify-center">
+                    <p v-html="detailJson.about.description"></p>
+                </div>
+                <div class="w-full flex justify-end mt-16">
+                    <div class="text-3xl">zimo</div>
                 </div>
             </div>
         </div>

@@ -55,10 +55,15 @@
             ]
         },
         "dramatic1": {
-            "scrollItemList": ["https://www.youtube.com/embed/-dGMVmWorzY","https://www.youtube.com/embed/cbythVmsVEI"]
+            "scrollItemList": [
+                "https://www.youtube.com/embed/-dGMVmWorzY",
+                "https://www.youtube.com/embed/cbythVmsVEI"
+            ]
         },
         "dramatic2": {
-            "scrollItemList": ["https://www.youtube.com/embed/OEiECI_2ZCU"]
+            "scrollItemList": [
+                "https://www.youtube.com/embed/OEiECI_2ZCU"
+            ]
         },
         "others": {
             "scrollImageList": [
@@ -86,5 +91,9 @@
                 "/splash/others/I-0009-OK.png"
             ]
         }
+    },
+    "about": {
+        "mainImageUrl": "/splash/myself.jpg",
+        "description": "&nbsp;&nbsp;&nbsp;&nbsp;<span style='font-size: 2.25rem;line-height: 2.5rem;font-weight: 300;'>A</span> little over a year ago I saw the Arc De Triomphe in Paris all wrapped and covered up. Christo, one of the greatest artists of the 21st century, died the year before, but his collaborators did this as one his last wishes.Christo never explained why he did it; rather he cared about the spectacle of public art. The art, of course, conveys meaning: perhaps about covering up France’s military history or maybe the exact opposite by celebrating the “gift” of France’s identity. But the key for Christo was that the viewer got to decide, as art for him was meant to be viewed, judged, and appreciated by the public.<br/>&nbsp;&nbsp;&nbsp;&nbsp; Christo has inspired my own art. I was born and grew up in Beijing. For the Chinese, the Great Wall is one of our proudest accomplishments, one of the greatest infrastructure projects ever, spanning over 13,000 miles. It was therefore a shock to realize in my research that the Great Wall might not have been so great. The wall was built over centuries through the death of hundreds of thousands of prisoners and peasants. This is why historians call it the "
     }
 }
