@@ -62,7 +62,7 @@
         },
         "dramatic2": {
             "scrollItemList": [
-                "https://www.youtube.com/embed/OEiECI_2ZCU"
+                "https://www.youtube.com/embed/o48Vhlau0Rg"
             ]
         },
         "others": {
@@ -89,7 +89,8 @@
                 "/splash/others/I-0006-OK.png",
                 "/splash/others/I-0007-OK.png",
                 "/splash/others/I-0009-OK.png"
-            ]
+            ],
+            "videoUrl":"https://www.youtube.com/embed/Snvj4h8WESU"
         }
     },
     "about": {

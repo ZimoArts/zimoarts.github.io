@@ -102,14 +102,17 @@
                     <div class="w-full flex h-36 relative mt-28">
                         <div class="w-full flex items-center">
                             <div class="flex items-center border border-black">
-                                <Carousel style="width: 280px; height: 172px;" :autoplay="true" :initIndex="0"
+                                <!-- <Carousel style="width: 280px; height: 172px;" :autoplay="true" :initIndex="0"
                                     :indicator="false" directionMode="hover">
                                     <CarouselItem v-for="(image, index) in detailJson.navs.others.scrollImageList"
                                         :key="index" :idx="index">
                                         <img :src="image" class="w-full hover:cursor-pointer object-contain" alt=""
                                             @click="handleTapImage(image)" />
                                     </CarouselItem>
-                                </Carousel>
+                                </Carousel> -->
+                                <VideoPlayerComponent style="width: 280px; height: 172px;"
+                                    :v-url="detailJson.navs.others.videoUrl" />
+
                             </div>
                             <div class="w-full relative bottom-0 right-0 border-b border-black">
                                 <div class="absolute bottom-0 right-0 w-other transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
