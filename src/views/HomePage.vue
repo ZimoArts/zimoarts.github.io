@@ -1,5 +1,5 @@
 <template>
-    <!-- <AnimarionSplashView :class="fadeoutClass" v-on:image-click="AnimationSplashViewImageOnClick" /> -->
+    <AnimarionSplashView :class="fadeoutClass" v-on:image-click="AnimationSplashViewImageOnClick" />
     <div class="w-full pl-9 pr-9" v-show="showSplashView">
         <div class="w-full flex justify-center">
             <div class="w-1/2">
@@ -33,7 +33,7 @@
                     <div class="w-full flex items-center">
                         <div class="w-full relative border-b border-black">
                             <div class="absolute bottom-0 left-0  w-interview transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
-                                @click="toPage('/dramatic')">
+                                @click="toPage('/interview')">
                                 <div class="text-lg text-left">Interview: The Dreamers & Influencer</div>
                                 <div class="h-2 bg-black"></div>
                             </div>
@@ -148,7 +148,7 @@
 
 <script setup>
 import FooterView from '../components/FooterView.vue'
-// import AnimarionSplashView from '../components/AnimationSplashView.vue'
+import AnimarionSplashView from '../components/AnimationSplashView.vue'
 import detailJson from '../assets/home/detail.json'
 import { useRouter } from 'vue-router';
 import { v3ImgPreviewFn } from 'v3-img-preview'
@@ -157,7 +157,7 @@ import VideoPlayerComponent from '../components/VideoPlayerComponent.vue';
 
 const router = useRouter()
 
-const showSplashView = ref(true)
+const showSplashView = ref(false)
 const fadeoutClass = ref("")
 
 function AnimationSplashViewImageOnClick() {
