@@ -7,7 +7,7 @@
                     <img class="w-64" src="../assets/black_red_dot_zimoart.png" alt="">
                 </div>
                 <!-- dramatic -->
-                <div class="w-11/12 flex h-36 mt-9">
+                <div class="w-11/12 flex h-36 mt-9 hover:cursor-pointer" @click="toPage('/dramatic')">
                     <div class="w-full flex items-center">
                         <div class="w-full relative border-b border-black">
                             <div class="absolute bottom-0 left-0  w-dramatic transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-11/12 flex h-36 mt-28">
+                <div class="w-11/12 flex h-36 mt-28 hover:cursor-pointer" @click="toPage('/interview')">
                     <div class="w-full flex items-center">
                         <div class="w-full relative border-b border-black">
                             <div class="absolute bottom-0 left-0  w-interview transition-all duration-1000 ease-in-out hover:w-full hover:cursor-pointer"
@@ -55,15 +55,14 @@
             <div class="w-1/2 bg-white">
                 <div class="mt-20">
                     <!-- sculpture -->
-                    <div class="w-full flex h-36 relative">
+                    <div class="w-full flex h-36 relative hover:cursor-pointer" @click="toPage('/sculpture')">
                         <div class="w-full flex items-center">
                             <div class="flex items-center border border-black">
                                 <Carousel style="width: 280px; height: 172px;" :autoplay="true" :initIndex="0"
                                     :indicator="false" directionMode="hover">
                                     <CarouselItem v-for="(image, index) in detailJson.navs.sculpture.scrollImageList"
                                         :key="index" :idx="index">
-                                        <img :src="image" class="w-full hover:cursor-pointer object-contain" alt=""
-                                            @click="handleTapImage(image)" />
+                                        <img :src="image" class="w-full hover:cursor-pointer object-contain" alt="" />
                                     </CarouselItem>
                                 </Carousel>
                             </div>
@@ -77,15 +76,14 @@
                         </div>
                     </div>
                     <!-- photography -->
-                    <div class="w-full flex h-36 relative mt-28">
+                    <div class="w-full flex h-36 relative mt-28 hover:cursor-pointer" @click="toPage('/photography')">
                         <div class="w-full flex items-center">
                             <div class="flex items-center border border-black">
                                 <Carousel style="width: 280px; height: 172px;" :autoplay="true" :initIndex="0"
                                     :indicator="false" directionMode="hover">
                                     <CarouselItem v-for="(image, index) in detailJson.navs.photography.scrollImageList"
                                         :key="index" :idx="index">
-                                        <img :src="image" class="hover:cursor-pointer object-contain" alt=""
-                                            @click="handleTapImage(image)" />
+                                        <img :src="image" class="hover:cursor-pointer object-contain" alt=""/>
                                     </CarouselItem>
                                 </Carousel>
                             </div>
@@ -99,7 +97,7 @@
                         </div>
                     </div>
                     <!-- others -->
-                    <div class="w-full flex h-36 relative mt-28">
+                    <div class="w-full flex h-36 relative mt-28 hover:cursor-pointer" @click="toPage('/other')">
                         <div class="w-full flex items-center">
                             <div class="flex items-center border border-black">
                                 <!-- <Carousel style="width: 280px; height: 172px;" :autoplay="true" :initIndex="0"
@@ -128,8 +126,7 @@
         </div>
         <div class="w-full flex mt-64">
             <div class="w-2/5 flex justify-center">
-                <img @click="handleTapImage(detailJson.about.mainImageUrl)"
-                    class="w-3/4 object-cover hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
+                <img class="w-3/4 object-cover hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                     :src="detailJson.about.mainImageUrl" />
 
             </div>
