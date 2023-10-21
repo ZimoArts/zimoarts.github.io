@@ -7,11 +7,11 @@
             <!-- <div class="w-full flex justify-end">
                 <img class="w-28" src="../assets/black_zimoart.png" alt="">
             </div> -->
-            <div class="text-xs">JGYTDETRTQWEESDFG</div>
+            <!-- <div class="text-xs">JGYTDETRTQWEESDFG</div>
             <div class="text-xs">GDGHGHGDFGSDTSIUHIOVBBXZMIYTUXDG</div>
             <div class="text-xs">HJHFJH JHCH V FJ VJVCCCC H</div>
             <div class="text-xs">GJHG JKHVJHG VHVHFV</div>
-            <div class="text-xs">CHGFD</div>
+            <div class="text-xs">CHGFD</div> -->
         </div>
     </div>
 </template>
