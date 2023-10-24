@@ -1,5 +1,5 @@
 <template>
-    <AnimarionSplashView :class="fadeoutClass" v-on:image-click="AnimationSplashViewImageOnClick" />
+    <AnimarionSplashView :class="fadeoutClass" v-on:image-click="AnimationSplashViewFadeOut" />
     <div class="w-full pl-9 pr-9" v-show="showSplashView">
         <div class="w-full flex justify-center">
             <div class="w-1/2">
@@ -157,7 +157,7 @@ const router = useRouter()
 const showSplashView = ref(false)
 const fadeoutClass = ref("")
 
-function AnimationSplashViewImageOnClick() {
+function AnimationSplashViewFadeOut() {
     fadeoutClass.value = "fadeout"
     showSplashView.value = true
 }
@@ -169,6 +169,14 @@ function toPage(routerStr) {
 function handleTapImage(url) {
     v3ImgPreviewFn(url)
 }
+
+// Set the duration of the timer in milliseconds
+var timerDuration = 3000;
+
+// Start the timer
+setTimeout(function () {
+    AnimationSplashViewFadeOut()
+}, timerDuration);
 
 
 </script>
