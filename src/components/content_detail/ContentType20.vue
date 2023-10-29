@@ -25,7 +25,7 @@
                 <img @click="handleTapImage(image)" class="w-full object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150" :src="image" />
             </template>
             <div class="pl-10 flex justify-start">
-                <div class="mt-9">
+                <div class="mt-2">
                     <div class="w-64 text-xs font-bold">{{ item.rightBottomTitle }}</div>
                     <div class="w-64 text-xs">{{ item.rightSize }}</div>
                     <div class="text-xs">{{ item.rightMaterial }}</div>

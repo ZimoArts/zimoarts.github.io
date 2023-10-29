@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="flex justify-start">
-                <div class="mt-9">
+                <div class="mt-2">
                     <div class="w-64 text-xs font-bold">{{ item.leftBottomTitle }}</div>
                     <div class="w-64 text-xs">{{ item.leftSize }}</div>
                     <div class="text-xs">{{ item.leftMaterial }}</div>
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="flex justify-end">
-                <div class="mt-9 w-9/12">
+                <div class="mt-2 w-9/12">
                     <div class="w-64 text-xs font-bold">{{ item.rightBottomTitle }}</div>
                     <div class="w-64 text-xs">{{ item.rightSize }}</div>
                     <div class="text-xs">{{ item.rightMaterial }}</div>

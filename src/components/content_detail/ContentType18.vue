@@ -24,7 +24,7 @@
                         :src="item.bottomImage" />
                 </div>
             </div>
-            <div class="mt-9">
+            <div class="mt-2">
                 <div class="w-64 text-xs font-bold">{{ item.bottomTitle }}</div>
                 <div class="w-64 text-xs">{{ item.size }}</div>
                 <div class="text-xs">{{ item.material }}</div>
