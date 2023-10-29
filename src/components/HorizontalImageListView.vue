@@ -6,8 +6,8 @@
                     <div class="w-96">
                         <img class="w-full" :src="info.url" alt="" />
                         <div class="w-full mt-9">
-                            <div class="w-64 text-sm font-bold">{{ info.title }}</div>
-                            <div class="w-64 text-sm">{{ info.subTitle }}</div>
+                            <div class="w-64 text-xs font-bold">{{ info.title }}</div>
+                            <div class="w-64 text-xs">{{ info.subTitle }}</div>
                         </div>
                     </div>
                 </div>

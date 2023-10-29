@@ -15,7 +15,7 @@
         <div class="w-3/5 ml-6 h-full">
             <div class="flex mt-6">
                 <div class="w-3/5">
-                    <div class="relative h-full mr-9">
+                    <div class="relative h-full mr-9 flex items-center">
                         <span v-html="item.description"></span>
                     </div>
                 </div>
@@ -36,10 +36,10 @@
             </div>
         </div>
     </div>
-    <div class="mt-9">
-        <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-        <div class="w-64 text-sm">{{ item.size }}</div>
-        <div class="text-sm">{{ item.material }}</div>
+    <div class="mt-2">
+        <div class="w-64 text-xs font-bold">{{ item.bottomTitle }}</div>
+        <div class="w-64 text-xs">{{ item.size }}</div>
+        <div class="text-xs">{{ item.material }}</div>
     </div>
 </template>
 

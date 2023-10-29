@@ -19,10 +19,10 @@
         </div>
         <div class="flex">
             <div class="w-3/5 flex">
-                <div class="mt-9 w-1/3">
-                    <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-                    <div class="w-64 text-sm">{{ item.size }}</div>
-                    <div class="w-64 text-sm">{{ item.material }}</div>
+                <div class="mt-2 w-1/3">
+                    <div class="w-64 text-xs font-bold">{{ item.bottomTitle }}</div>
+                    <div class="w-64 text-xs">{{ item.size }}</div>
+                    <div class="w-64 text-xs">{{ item.material }}</div>
                 </div>
                 <div class="mt-9 w-2/3">
                     <div class="flex justify-end">
