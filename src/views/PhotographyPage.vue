@@ -9,6 +9,9 @@
         <div class="w-full flex justify-center mt-16 pl-9 pr-9">
             <span v-html="detailJson.description" class="pl-9 pr-9"></span>
         </div>
+        <div class="w-full flex justify-start mt-16 mb-9 pl-9 pr-9">
+            <span class="pl-9 text-xs font-bold">2022 [ 30cm x 21cm ] x 24</span>
+        </div>
         <template v-for="itemDetail in itemDetailList">
             <ImageContent :image-infos="itemDetail" />
         </template>
