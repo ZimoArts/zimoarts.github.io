@@ -25,16 +25,16 @@
     <div class="w-full flex">
         <div class="w-1/2 flex justify-start">
             <div class="mt-2">
-                <div class="w-64 text-sm font-bold">{{ item.leftBottomTitle }}</div>
-                <div class="w-64 text-sm">{{ item.leftSize }}</div>
-                <div class="text-sm">{{ item.leftMaterial }}</div>
+                <div class="w-64 text-xs font-bold">{{ item.leftBottomTitle }}</div>
+                <div class="w-64 text-xs">{{ item.leftSize }}</div>
+                <div class="text-xs">{{ item.leftMaterial }}</div>
             </div>
         </div>
         <div class="w-1/2 flex justify-end">
             <div class="mt-2 mr-6">
-                <div class="text-sm font-bold">{{ item.rightBottomTitle }}</div>
-                <div class="text-sm">{{ item.rightSize }}</div>
-                <div class="text-sm">{{ item.rightMaterial }}</div>
+                <div class="text-xs font-bold">{{ item.rightBottomTitle }}</div>
+                <div class="text-xs">{{ item.rightSize }}</div>
+                <div class="text-xs">{{ item.rightMaterial }}</div>
             </div>
         </div>
     </div>

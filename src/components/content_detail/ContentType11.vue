@@ -18,15 +18,15 @@
                     <img @click="handleTapImage(item.topRightImage)" class="w-72 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="item.topRightImage" />
                 </div>
-                <span class="ml-6 mt-16" v-html="item.description"></span>
+                <div class="pl-16 mt-16" v-html="item.description"></div>
             </div>
         </div>
         <div class="flex">
             <div class="w-3/5 flex">
-                <div class="mt-9 w-3/5">
-                    <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-                    <div class="w-64 text-sm">{{ item.size }}</div>
-                    <div class="w-full text-sm">{{ item.material }}</div>
+                <div class="mt-2 w-3/5">
+                    <div class="w-64 text-xs font-bold">{{ item.bottomTitle }}</div>
+                    <div class="w-64 text-xs">{{ item.size }}</div>
+                    <div class="w-full text-xs">{{ item.material }}</div>
                 </div>
             </div>
             <div class="w-2/5">

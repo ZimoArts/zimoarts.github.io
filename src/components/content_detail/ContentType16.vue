@@ -6,7 +6,7 @@
         </div>
         <div class="flex justify-start relative mt-12">
             <div class="w-7/12">
-                <div class="flex justify-center p-9">
+                <div class="flex justify-start">
                     <VideoPlayerComponent style="height: 360px; width: 630px;" :v-url="item.videoUrl" />
                 </div>
             </div>

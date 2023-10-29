@@ -18,10 +18,10 @@
         </div>
     </div>
     <div class="flex justify-start">
-        <div class="mt-9">
-            <div class="w-64 text-sm font-bold">{{ item.bottomTitle }}</div>
-            <div class="w-64 text-sm">{{ item.size }}</div>
-            <div class="w-64 text-sm">{{ item.material }}</div>
+        <div class="mt-2">
+            <div class="w-64 text-xs font-bold">{{ item.bottomTitle }}</div>
+            <div class="w-64 text-xs">{{ item.size }}</div>
+            <div class="w-64 text-xs">{{ item.material }}</div>
         </div>
         <span v-html="item.description"></span>
     </div>

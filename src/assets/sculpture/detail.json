@@ -114,7 +114,7 @@
                 "/sculpture/F003-OK.png",
                 "/sculpture/F004-OK.png"
             ],
-            "type": "4"
+            "type": "25"
         },
         {
             "title": "Yin-Yang:I am Not A Color",
@@ -136,7 +136,7 @@
         {
             "title": "To Survive",
             "subTitle": "",
-            "description": "Living is a struggle in itself. I read this from a comment under an article about the difficulties of making a living. I was deeply impressed and inspired by these quotes. That’s what led me to create this sculpture. I played with the color, the light, and the motion of the furry monkey to demonstrate a desperation to see the sky and for freedom. ",
+            "description": "<span style='font-size: 2.25rem;line-height: 2.5rem;font-weight: 300;'>L</span>iving is a struggle in itself. I read this from a comment under an article about the difficulties of making a living. I was deeply impressed and inspired by these quotes. That’s what led me to create this sculpture. I played with the color, the light, and the motion of the furry monkey to demonstrate a desperation to see the sky and for freedom. ",
             "bottomTitle": "December 2022",
             "size": "[ 15cm x 12cm x 12cm ]x3",
             "material": "Flower Bud、Cicada Shell、Carton、Acrylic paint、Tree branch、Laundry Paper、Glue.",
@@ -148,8 +148,8 @@
         },
         {
             "title": "The Structure and the Shadow ",
-            "subTitle": "I tried to play around with cardboard to see what effect structure can create using light and shadow. It turned out pretty interesting: The angel, the texture, and the structure all appear very cohesive despite their disparate properties.",
-            "description": "",
+            "subTitle": "",
+            "description": "<span style='font-size: 2.25rem;line-height: 2.5rem;font-weight: 300;'>I</span> tried to play around with cardboard to see what effect structure can create using light and shadow. It turned out pretty interesting: The angel, the texture, and the structure all appear very cohesive despite their disparate properties.",
             "bottomTitle": "March 2023",
             "size": "[ 30cm x 25cm x 12cm ]",
             "material": "Cardboard、Acrylic paint、Oil Painting Stick、Rice Paper、Ink、Glue.",
@@ -163,7 +163,7 @@
         {
             "title": "Transformation: Wind",
             "subTitle": "",
-            "description": "As the wind touched her cheek, she closed her eyes and became part of nature. This is how I felt when I witnessed this girl on the side of the street. The wind seems to transform her into a more beautiful person. I followed my feelings and imagination when I placed my hands on the clay. ",
+            "description": "<span style='font-size: 2.25rem;line-height: 2.5rem;font-weight: 300;'>A</span>s the wind touched her cheek, she closed her eyes and became part of nature. This is how I felt when I witnessed this girl on the side of the street. The wind seems to transform her into a more beautiful person. I followed my feelings and imagination when I placed my hands on the clay. ",
             "bottomTitle": "August 2021",
             "size": "[ 38cm x18cm x 15cm ]",
             "material": "Clay",
@@ -177,7 +177,7 @@
         {
             "title": "A Strange Stone",
             "subTitle": "",
-            "description": "When I was young, my dad was in love with weird stones. I created this piece for him. It’s simply the result of me playing with the clay and experimenting with different forms.",
+            "description": "<span style='font-size: 2.25rem;line-height: 2.5rem;font-weight: 300;'>W</span>hen I was young, my dad was in love with weird stones. I created this piece for him. It’s simply the result of me playing with the clay and experimenting with different forms.",
             "bottomTitle": "June 2021",
             "size": "[ 38cm x18cm x 15cm ]",
             "material": "Clay",
@@ -205,7 +205,7 @@
         {
             "title": "The Paper of Hope",
             "subTitle": "",
-            "description": "Inspired by the white paper protest that happened in China, I created this piece because I think the paper that people held in their hands during this protest represented the huge weight of Hope.",
+            "description": "<span style='font-size: 2.25rem;line-height: 2.5rem;font-weight: 300;'>I</span>nspired by the white paper protest that happened in China, I created this piece because I think the paper that people held in their hands during this protest represented the huge weight of Hope.",
             "bottomTitle": "May 2023",
             "size": "[ 60cm x 30cm x 30cm ]",
             "material": "Doll、Cloth、Metal Frame、Candle、Cardboard、Spray paint、Rice Paper、Glue.",
@@ -222,7 +222,7 @@
         {
             "title": "If Humans Could Fly",
             "subTitle": "2023 Scholastic Art Award Winner Honorable mention",
-            "description": "I’ve always wondered what would happen if humans became birds. I admire the freedom that birds have because they can travel wherever they want. I wish I could be a bird. My decision to leave China at 12 years old freed me from a cage. Everyone deserves to stand on top of the tree and fly into a vast sky. This is why I give the furry monkeys wings on their back. I stick actual tree branches on cardboard and then put the furry monkeys on them.",
+            "description": "<span style='font-size: 2.25rem;line-height: 2.5rem;font-weight: 300;'>I’</span>ve always wondered what would happen if humans became birds. I admire the freedom that birds have because they can travel wherever they want. I wish I could be a bird. My decision to leave China at 12 years old freed me from a cage. Everyone deserves to stand on top of the tree and fly into a vast sky. This is why I give the furry monkeys wings on their back. I stick actual tree branches on cardboard and then put the furry monkeys on them.",
             "bottomTitle": "August 2022",
             "size": "[ 85cm x 20cm x 10cm ]",
             "material": "Flower Bud、Cicada Shell、Paper Tube、Acrylic paint、Tree branch、Glue.",
@@ -238,7 +238,7 @@
         {
             "title": "Hamlet: the Turning Point",
             "subTitle": "English Class Project",
-            "description": "This scene depicts a turning point in Hamlet’s mental state. Before this scene, his mind was unclear and full of hatred. The black and white therefore represent the just and evil sides of Hamlet. The figure behind Hamlet represents not only his father’s ghost but also the hatred that has dominated his mind.",
+            "description": "<span style='font-size: 2.25rem;line-height: 2.5rem;font-weight: 300;'>T</span>his scene depicts a turning point in Hamlet’s mental state. Before this scene, his mind was unclear and full of hatred. The black and white therefore represent the just and evil sides of Hamlet. The figure behind Hamlet represents not only his father’s ghost but also the hatred that has dominated his mind.",
 
             "bottomTitle": "Decmber 2022",
             "size": "[ 45cm x 30cm x 20cm ]",
@@ -253,7 +253,7 @@
         {
             "title": "Groton Crew",
             "subTitle": "2022 Scholastic Art Award Winner Honorable Mention",
-            "description": "I made this as a gift for my Advisor Mr. Funnell. I was really happy that I was accepted to Groton, so I made a little present for him.",
+            "description": "<span style='font-size: 2.25rem;line-height: 2.5rem;font-weight: 300;'>I</span> made this as a gift for my Advisor Mr. Funnell. I was really happy that I was accepted to Groton, so I made a little present for him.",
             "bottomTitle": "May 2021",
             "size": "[ 45cm x 30cm x 20cm ]",
             "material": "Flower Bud、Cicada Shell、Carton、Acrylic paint、Beer Can、Metal Wire、Glue.",
