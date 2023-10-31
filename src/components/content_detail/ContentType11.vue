@@ -18,7 +18,7 @@
                     <img @click="handleTapImage(item.topRightImage)" class="w-72 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
                         :src="item.topRightImage" />
                 </div>
-                <div class="pl-16 mt-16" v-html="item.description"></div>
+                <div class="pl-16 mt-32" v-html="item.description"></div>
             </div>
         </div>
         <div class="flex">
