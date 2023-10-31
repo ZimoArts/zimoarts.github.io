@@ -13,7 +13,7 @@
         </div>
         <div class="w-3/5 ml-6 h-full">
             <div class="flex">
-                <span class="text-sm w-1/2 items-center" v-html="item.description"></span>
+                <span class="text-sm w-full items-center pt-20" v-html="item.description"></span>
                 <div class="w-1/2 flex justify-end">
                     <img @click="handleTapImage(item.titleImage)"
                         class="w-56 ml-9 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
