@@ -19,9 +19,11 @@
                     <div v-if="item.titleImage == null || item.titleImage == ''">
                         <div class="w-full h-32"></div>
                     </div>
-                    <img @click="handleTapImage(item.titleImage)"
-                        class="w-64 ml-9 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
-                        :src="item.titleImage" />
+                    <div v-else>
+                        <img @click="handleTapImage(item.titleImage)"
+                            class="w-64 ml-9 object-contain hover:cursor-pointer hover:scale-110 ease-in-out duration-300 delay-150"
+                            :src="item.titleImage" />
+                    </div>
                 </div>
                 <div v-if="item.titleImage != null && item.titleImage != ''">
                     <div class="w-full h-10"></div>
